@@ -14,6 +14,7 @@
 
 <body>
     @extends('master')
+    {{-- rawr --}}
 
     @section('section1')
         <section class="bg-primary flex justify-center gap-10 p-8">
