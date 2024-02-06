@@ -21,6 +21,7 @@
             {{-- img pindah --}}
             <div class="w-135 h-56 bg-secondary overflow-hidden rounded-2xl"></div>
             {{-- iklan --}}
+            {{-- RARW --}}
             <div class="flex flex-col gap-4">
                 <div class="w-96 h-27 bg-secondary overflow-hidden rounded-2xl"></div>
                 <div class="w-96 h-27 bg-secondary overflow-hidden rounded-2xl"></div>
