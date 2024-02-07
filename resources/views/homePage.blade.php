@@ -40,10 +40,10 @@
                 <div class="flex justify-center px-20">
                     <span class="text-heading text-3xl font-poppins font-medium">Kendaraan ?</span>
                 </div>
-                <div class="flex justify-start px-48">
+                <div class="flex justify-start px-40">
                     <span class="text-heading text-3xl font-poppins font-medium">Mobil</span>
                 </div>
-                <div class="flex gap-10 justify-center pb-10 pt-5">
+                <div class="flex gap-10 justify-center pb-10 pt-5 items-center">
                     <div class="card-section">
                         <div class="card-section-inside">
                             <span></span>
@@ -68,13 +68,17 @@
                         <div class="card-section-inside">
                             <span></span>
                         </div>
+                    </div>
+                    <div>
+                        <button type="button" class="flex flex-col"><i class="bi bi-chevron-right text-2xl"></i>
+                            <span>More...</span></button>
                     </div>
                 </div>
 
-                <div class="flex justify-start px-48">
+                <div class="flex justify-start px-40">
                     <span class="text-heading text-3xl font-poppins font-medium">Motor</span>
                 </div>
-                <div class="flex gap-10 justify-center pb-10 pt-5">
+                <div class="flex gap-10 justify-center pb-10 pt-5 items-center">
                     <div class="card-section">
                         <div class="card-section-inside">
                             <span></span>
@@ -99,16 +103,20 @@
                         <div class="card-section-inside">
                             <span></span>
                         </div>
+                    </div>
+                    <div>
+                        <button type="button" class="flex flex-col"><i class="bi bi-chevron-right text-2xl"></i>
+                            <span>More...</span></button>
                     </div>
                 </div>
 
                 <div class="flex justify-center px-20 pt-14">
                     <span class="text-heading text-3xl font-poppins font-medium">Pakaian ?</span>
                 </div>
-                <div class="flex justify-start px-48">
+                <div class="flex justify-start px-40">
                     <span class="text-heading text-3xl font-poppins font-medium">Pakaian Adat</span>
                 </div>
-                <div class="flex gap-10 justify-center pb-10 pt-5">
+                <div class="flex gap-10 justify-center pb-10 pt-5 items-center">
                     <div class="card-section">
                         <div class="card-section-inside">
                             <span></span>
@@ -133,13 +141,17 @@
                         <div class="card-section-inside">
                             <span></span>
                         </div>
+                    </div>
+                    <div>
+                        <button type="button" class="flex flex-col"><i class="bi bi-chevron-right text-2xl"></i>
+                            <span>More...</span></button>
                     </div>
                 </div>
 
-                <div class="flex justify-start px-48">
+                <div class="flex justify-start px-40">
                     <span class="text-heading text-3xl font-poppins font-medium">Pakaian Coseplay</span>
                 </div>
-                <div class="flex gap-10 justify-center pb-10 pt-5">
+                <div class="flex gap-10 justify-center pb-10 pt-5 items-center">
                     <div class="card-section">
                         <div class="card-section-inside">
                             <span></span>
@@ -164,6 +176,10 @@
                         <div class="card-section-inside">
                             <span></span>
                         </div>
+                    </div>
+                    <div>
+                        <button type="button" class="flex flex-col"><i class="bi bi-chevron-right text-2xl"></i>
+                            <span>More...</span></button>
                     </div>
                 </div>
 
