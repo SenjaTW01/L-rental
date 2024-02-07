@@ -38,28 +38,28 @@
             <div class="">
                 <span></span>
                 <div class="flex gap-10 justify-center py-10 ">
-                    <div class="w-40 h-40 bg-primary flex relative rounded-2xl">
-                        <div class="absolute bottom-0 w-full bg-nav-color h-8 rounded-bl-2xl rounded-br-2xl">
+                    <div class="card-section">
+                        <div class="card-section-inside">
                             <span></span>
                         </div>
                     </div>
-                    <div class="w-40 h-40 bg-primary flex relative rounded-2xl">
-                        <div class="absolute bottom-0 w-full bg-nav-color h-8 rounded-bl-2xl rounded-br-2xl">
+                    <div class="card-section">
+                        <div class="card-section-inside">
                             <span></span>
                         </div>
                     </div>
-                    <div class="w-40 h-40 bg-primary flex relative rounded-2xl">
-                        <div class="absolute bottom-0 w-full bg-nav-color h-8 rounded-bl-2xl rounded-br-2xl">
+                    <div class="card-section">
+                        <div class="card-section-inside">
                             <span></span>
                         </div>
                     </div>
-                    <div class="w-40 h-40 bg-primary flex relative rounded-2xl">
-                        <div class="absolute bottom-0 w-full bg-nav-color h-8 rounded-bl-2xl rounded-br-2xl">
+                    <div class="card-section">
+                        <div class="card-section-inside">
                             <span></span>
                         </div>
                     </div>
-                    <div class="w-40 h-40 bg-primary flex relative rounded-2xl">
-                        <div class="absolute bottom-0 w-full bg-nav-color h-8 rounded-bl-2xl rounded-br-2xl">
+                    <div class="card-section">
+                        <div class="card-section-inside">
                             <span></span>
                         </div>
                     </div>
