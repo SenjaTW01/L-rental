@@ -4,9 +4,9 @@
 
 @layer components {
     .card-section {
-        @apply w-40 h-40 bg-primary flex relative rounded-2xl;
+        @apply w-40 h-40 bg-sec3 flex relative rounded-2xl;
     }
     .card-section-inside {
-        @apply absolute bottom-0 w-full bg-nav-color h-8 rounded-bl-2xl rounded-br-2xl;
+        @apply absolute bottom-0 w-full bg-primary h-8 rounded-bl-2xl rounded-br-2xl;
     }
 }

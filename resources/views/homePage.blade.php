@@ -31,13 +31,19 @@
     @section('section2')
         <section class="bg-secondary flex justify-center flex-col">
             <div class="flex px-48 pt-10">
-                <span class="text-primary text-5xl font-ubuntu font-medium">
-                    Mau rental kendaraan <br>tapi bingung tempatnya dimana? <br>L - Rent in Aja !
+                <span class="text-heading text-4xl font-poppins font-medium">
+                    Mau Nyari tempat rental <br>tapi bingung tempatnya dimana? <br>L - Rent in Aja !
                 </span>
             </div>
-            <div class="">
-                <span></span>
-                <div class="flex gap-10 justify-center py-10 ">
+
+            <div class="py-16">
+                <div class="flex justify-center px-20">
+                    <span class="text-heading text-3xl font-poppins font-medium">Kendaraan ?</span>
+                </div>
+                <div class="flex justify-start px-48">
+                    <span class="text-heading text-3xl font-poppins font-medium">Mobil</span>
+                </div>
+                <div class="flex gap-10 justify-center pb-10 pt-5">
                     <div class="card-section">
                         <div class="card-section-inside">
                             <span></span>
@@ -64,6 +70,103 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="flex justify-start px-48">
+                    <span class="text-heading text-3xl font-poppins font-medium">Motor</span>
+                </div>
+                <div class="flex gap-10 justify-center pb-10 pt-5">
+                    <div class="card-section">
+                        <div class="card-section-inside">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="card-section">
+                        <div class="card-section-inside">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="card-section">
+                        <div class="card-section-inside">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="card-section">
+                        <div class="card-section-inside">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="card-section">
+                        <div class="card-section-inside">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex justify-center px-20 pt-14">
+                    <span class="text-heading text-3xl font-poppins font-medium">Pakaian ?</span>
+                </div>
+                <div class="flex justify-start px-48">
+                    <span class="text-heading text-3xl font-poppins font-medium">Pakaian Adat</span>
+                </div>
+                <div class="flex gap-10 justify-center pb-10 pt-5">
+                    <div class="card-section">
+                        <div class="card-section-inside">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="card-section">
+                        <div class="card-section-inside">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="card-section">
+                        <div class="card-section-inside">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="card-section">
+                        <div class="card-section-inside">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="card-section">
+                        <div class="card-section-inside">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex justify-start px-48">
+                    <span class="text-heading text-3xl font-poppins font-medium">Pakaian Coseplay</span>
+                </div>
+                <div class="flex gap-10 justify-center pb-10 pt-5">
+                    <div class="card-section">
+                        <div class="card-section-inside">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="card-section">
+                        <div class="card-section-inside">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="card-section">
+                        <div class="card-section-inside">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="card-section">
+                        <div class="card-section-inside">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="card-section">
+                        <div class="card-section-inside">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
     @endsection
@@ -74,7 +177,7 @@
                 <img src="{{ asset('assets/Ellipse 23.png') }}" alt="">
             </div>
             <div class="flex flex-col w-96">
-                <span class="text-4xl font-ubuntu text-primary pt-5 font-bold">Tentang L`Rent</span>
+                <span class="text-4xl font-poppins text-primary pt-5 font-bold">Tentang L`Rent</span>
                 <span class="pt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, sequi rerum? Accusamus
                     quidem cumque
                     nostrum, dicta atque inventore iure quis reprehenderit, obcaecati modi assumenda natus error ex non vero

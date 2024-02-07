@@ -9,7 +9,8 @@ export default {
             'primary': '#26577C',
             'secondary': '#FFFFFF',
             'nav-color': '#1F4867',
-            'sec3': '#E4E4E4'
+            'sec3': '#E4E4E4',
+            'heading': '#164e63'
         },
         extend: {
             spacing: {
