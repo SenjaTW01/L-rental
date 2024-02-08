@@ -30,7 +30,7 @@
 
     @section('section2')
         <section class="bg-secondary flex justify-center flex-col">
-            <div class="flex px-48 pt-10">
+            <div class="flex px-40 pt-10">
                 <span class="text-heading text-4xl font-poppins font-medium">
                     Mau Nyari tempat rental <br>tapi bingung tempatnya dimana? <br>L - Rent in Aja !
                 </span>
@@ -70,8 +70,9 @@
                         </div>
                     </div>
                     <div>
-                        <button type="button" class="flex flex-col"><i class="bi bi-chevron-right text-2xl"></i>
-                            <span>More...</span></button>
+                        <a href="{{ route('selection') }}" class="flex flex-col"><i
+                                class="bi bi-chevron-right text-2xl"></i>
+                            <span>More...</span></a>
                     </div>
                 </div>
 
@@ -105,8 +106,8 @@
                         </div>
                     </div>
                     <div>
-                        <button type="button" class="flex flex-col"><i class="bi bi-chevron-right text-2xl"></i>
-                            <span>More...</span></button>
+                        <a href="" class="flex flex-col"><i class="bi bi-chevron-right text-2xl"></i>
+                            <span>More...</span></a>
                     </div>
                 </div>
 
@@ -143,8 +144,8 @@
                         </div>
                     </div>
                     <div>
-                        <button type="button" class="flex flex-col"><i class="bi bi-chevron-right text-2xl"></i>
-                            <span>More...</span></button>
+                        <a href="" class="flex flex-col"><i class="bi bi-chevron-right text-2xl"></i>
+                            <span>More...</span></a>
                     </div>
                 </div>
 
@@ -178,8 +179,8 @@
                         </div>
                     </div>
                     <div>
-                        <button type="button" class="flex flex-col"><i class="bi bi-chevron-right text-2xl"></i>
-                            <span>More...</span></button>
+                        <a href="" class="flex flex-col"><i class="bi bi-chevron-right text-2xl"></i>
+                            <span>More...</span></a>
                     </div>
                 </div>
 

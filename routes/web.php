@@ -19,3 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('/HomePage', [HomeController::class, 'homePage']);
+Route::get('/selection', [HomeController::class, 'selection'])->name('selection');

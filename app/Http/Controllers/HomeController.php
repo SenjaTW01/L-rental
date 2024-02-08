@@ -10,4 +10,9 @@ class HomeController extends Controller
     {
         return view('homePage');
     }
+
+    public function selection()
+    {
+        return view('selection');
+    }
 }
