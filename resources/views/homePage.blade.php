@@ -67,6 +67,15 @@
             </div>
         </section>
     @endsection
+
+    @section('section3')
+    <section>
+        <div class="bg-gray-white w-auto h-196 flex">
+            <img src="{{asset('asset/Frame.png')}}" alt="Ilustrasi" class="pl-48 pt-12">
+            <div class="flex-col justify-center pt-24 pl-32"><h1 class="text-primary text-4xl font-bold">Tentang Kami</h1><div class="font-semibold text-xl max-w-135 pt-8"><p>L’rent adalah Web sewa mobil di Ciamis yang hadir untuk memberikan kemudahan dan kecepatan bagi anda dalam menyewa mobil di Ciamis. Dimanapun dan kapanpun. <br><br> Kami memungkinkan anda untuk dapat mengakses puluhan unit mobil siap sewa yang dapat anda pilih sesuai kebutuhan. Mulai dari City Car Agya, MPV Innova hingga Minibus Elf. Semua dapat anda sewa hanya dengan satu klik, hanya di Bali Citra Medina.</p></div></div>
+        </div>
+    </section>
+    @endsection
 </body>
 
 </html>
