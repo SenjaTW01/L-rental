@@ -1,4 +1,4 @@
-<nav class="flex justify-between items-center bg-nav-color py-4 ps-20 pe-16">
+<nav class="flex justify-between items-center bg-nav_color py-4 ps-20 pe-16">
     {{-- Bagian 1 --}}
     <div class="">
         <span class="text-secondary">LOGO</span>
