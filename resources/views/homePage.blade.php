@@ -51,47 +51,42 @@
                         <div class="flex flex-wrap gap-4 justify-center items-center">
                             <span class="text-xl font-bold">320i</span>
                             <div class="flex gap-1">
-                                <img src="{{ asset('assets/Link → seat_df221162ea.svg.png') }}" alt=""
-                                    class="h-6">
+                                <img src="{{ asset('assets/Seat.svg') }}" alt="" class="h-6">
                                 <div class="flex flex-col">
                                     <span>TEMPAT DUDUK</span>
                                     <span>3</span>
                                 </div>
                             </div>
                             <div class="flex gap-1">
-                                <img src="{{ asset('assets/Link → suitcase_19ac6ac950.svg.png') }}" alt=""
-                                    class="h-6">
+                                <img src="{{ asset('assets/Suitcase.svg') }}" alt="" class="h-6">
                                 <div class="flex flex-col">
                                     <span>BAGASI</span>
                                     <span>2</span>
                                 </div>
                             </div>
                             <div class="flex gap-1">
-                                <img src="{{ asset('assets/transmission_7cba1b54e5.svg fill.png') }}" alt=""
-                                    class="h-6">
+                                <img src="{{ asset('assets/Transmission.svg') }}" alt="" class="h-6">
                                 <div class="flex-col flex">
                                     <span>TRANSMISI</span>
                                     <span>AUTOMATIC</span>
                                 </div>
                             </div>
                             <div class="flex gap-1">
-                                <img src="{{ asset('assets/Link → fuel_8ecb0a0c06.svg.png') }}" alt=""
-                                    class="h-6">
+                                <img src="{{ asset('assets/Fuel.svg') }}" alt="" class="h-6">
                                 <div class="flex flex-col">
                                     <span>BAHAN BAKAR</span>
                                     <span>BENSIN</span>
                                 </div>
                             </div>
                             <div class="flex gap-1">
-                                <img src="{{ asset('assets/Link → insurance_2741837aa3.svg.png') }}" alt=""
-                                    class="h-6">
+                                <img src="{{ asset('assets/Insurance.svg') }}" alt="" class="h-6">
                                 <div class="flex flex-col">
                                     <span>ASURANSI KENDARAAN</span>
                                     <span>YES</span>
                                 </div>
                             </div>
                             <div class="flex gap-1">
-                                <img src="{{ asset('assets/Vector.png') }}" alt="" class="h-6">
+                                <img src="{{ asset('assets/Driver.svg') }}" alt="" class="h-6">
                                 <div class="flex-col flex">
                                     <span>PENGEMUDI</span>
                                     <span>YES</span>
@@ -99,54 +94,48 @@
                             </div>
                         </div>
                     </div>
-
                     {{-- item 2 --}}
                     <div class="text-smn text-text_desk w-365 flex-wrap flex items-center justify-center">
                         <img src="{{ asset('assets/Link → image.png') }}" alt="" class="h-32">
                         <div class="flex flex-wrap gap-4 justify-center items-center">
                             <span class="text-xl font-bold">320i</span>
                             <div class="flex gap-1">
-                                <img src="{{ asset('assets/Link → seat_df221162ea.svg.png') }}" alt=""
-                                    class="h-6">
+                                <img src="{{ asset('assets/Seat.svg') }}" alt="" class="h-6">
                                 <div class="flex flex-col">
                                     <span>TEMPAT DUDUK</span>
                                     <span>3</span>
                                 </div>
                             </div>
                             <div class="flex gap-1">
-                                <img src="{{ asset('assets/Link → suitcase_19ac6ac950.svg.png') }}" alt=""
-                                    class="h-6">
+                                <img src="{{ asset('assets/Suitcase.svg') }}" alt="" class="h-6">
                                 <div class="flex flex-col">
                                     <span>BAGASI</span>
                                     <span>2</span>
                                 </div>
                             </div>
                             <div class="flex gap-1">
-                                <img src="{{ asset('assets/transmission_7cba1b54e5.svg fill.png') }}" alt=""
-                                    class="h-6">
+                                <img src="{{ asset('assets/Transmission.svg') }}" alt="" class="h-6">
                                 <div class="flex-col flex">
                                     <span>TRANSMISI</span>
                                     <span>AUTOMATIC</span>
                                 </div>
                             </div>
                             <div class="flex gap-1">
-                                <img src="{{ asset('assets/Link → fuel_8ecb0a0c06.svg.png') }}" alt=""
-                                    class="h-6">
+                                <img src="{{ asset('assets/Fuel.svg') }}" alt="" class="h-6">
                                 <div class="flex flex-col">
                                     <span>BAHAN BAKAR</span>
                                     <span>BENSIN</span>
                                 </div>
                             </div>
                             <div class="flex gap-1">
-                                <img src="{{ asset('assets/Link → insurance_2741837aa3.svg.png') }}" alt=""
-                                    class="h-6">
+                                <img src="{{ asset('assets/Insurance.svg') }}" alt="" class="h-6">
                                 <div class="flex flex-col">
                                     <span>ASURANSI KENDARAAN</span>
                                     <span>YES</span>
                                 </div>
                             </div>
                             <div class="flex gap-1">
-                                <img src="{{ asset('assets/Vector.png') }}" alt="" class="h-6">
+                                <img src="{{ asset('assets/Driver.svg') }}" alt="" class="h-6">
                                 <div class="flex-col flex">
                                     <span>PENGEMUDI</span>
                                     <span>YES</span>
@@ -155,53 +144,48 @@
                         </div>
                     </div>
 
-                    {{-- Item 3 --}}
+                    {{-- item 3 --}}
                     <div class="text-smn text-text_desk w-365 flex-wrap flex items-center justify-center">
                         <img src="{{ asset('assets/Link → image.png') }}" alt="" class="h-32">
                         <div class="flex flex-wrap gap-4 justify-center items-center">
                             <span class="text-xl font-bold">320i</span>
                             <div class="flex gap-1">
-                                <img src="{{ asset('assets/Link → seat_df221162ea.svg.png') }}" alt=""
-                                    class="h-6">
+                                <img src="{{ asset('assets/Seat.svg') }}" alt="" class="h-6">
                                 <div class="flex flex-col">
                                     <span>TEMPAT DUDUK</span>
                                     <span>3</span>
                                 </div>
                             </div>
                             <div class="flex gap-1">
-                                <img src="{{ asset('assets/Link → suitcase_19ac6ac950.svg.png') }}" alt=""
-                                    class="h-6">
+                                <img src="{{ asset('assets/Suitcase.svg') }}" alt="" class="h-6">
                                 <div class="flex flex-col">
                                     <span>BAGASI</span>
                                     <span>2</span>
                                 </div>
                             </div>
                             <div class="flex gap-1">
-                                <img src="{{ asset('assets/transmission_7cba1b54e5.svg fill.png') }}" alt=""
-                                    class="h-6">
+                                <img src="{{ asset('assets/Transmission.svg') }}" alt="" class="h-6">
                                 <div class="flex-col flex">
                                     <span>TRANSMISI</span>
                                     <span>AUTOMATIC</span>
                                 </div>
                             </div>
                             <div class="flex gap-1">
-                                <img src="{{ asset('assets/Link → fuel_8ecb0a0c06.svg.png') }}" alt=""
-                                    class="h-6">
+                                <img src="{{ asset('assets/Fuel.svg') }}" alt="" class="h-6">
                                 <div class="flex flex-col">
                                     <span>BAHAN BAKAR</span>
                                     <span>BENSIN</span>
                                 </div>
                             </div>
                             <div class="flex gap-1">
-                                <img src="{{ asset('assets/Link → insurance_2741837aa3.svg.png') }}" alt=""
-                                    class="h-6">
+                                <img src="{{ asset('assets/Insurance.svg') }}" alt="" class="h-6">
                                 <div class="flex flex-col">
                                     <span>ASURANSI KENDARAAN</span>
                                     <span>YES</span>
                                 </div>
                             </div>
                             <div class="flex gap-1">
-                                <img src="{{ asset('assets/Vector.png') }}" alt="" class="h-6">
+                                <img src="{{ asset('assets/Driver.svg') }}" alt="" class="h-6">
                                 <div class="flex-col flex">
                                     <span>PENGEMUDI</span>
                                     <span>YES</span>
@@ -210,53 +194,48 @@
                         </div>
                     </div>
 
-                    {{-- Item 4 --}}
+                    {{-- item 4 --}}
                     <div class="text-smn text-text_desk w-365 flex-wrap flex items-center justify-center">
                         <img src="{{ asset('assets/Link → image.png') }}" alt="" class="h-32">
                         <div class="flex flex-wrap gap-4 justify-center items-center">
                             <span class="text-xl font-bold">320i</span>
                             <div class="flex gap-1">
-                                <img src="{{ asset('assets/Link → seat_df221162ea.svg.png') }}" alt=""
-                                    class="h-6">
+                                <img src="{{ asset('assets/Seat.svg') }}" alt="" class="h-6">
                                 <div class="flex flex-col">
                                     <span>TEMPAT DUDUK</span>
                                     <span>3</span>
                                 </div>
                             </div>
                             <div class="flex gap-1">
-                                <img src="{{ asset('assets/Link → suitcase_19ac6ac950.svg.png') }}" alt=""
-                                    class="h-6">
+                                <img src="{{ asset('assets/Suitcase.svg') }}" alt="" class="h-6">
                                 <div class="flex flex-col">
                                     <span>BAGASI</span>
                                     <span>2</span>
                                 </div>
                             </div>
                             <div class="flex gap-1">
-                                <img src="{{ asset('assets/transmission_7cba1b54e5.svg fill.png') }}" alt=""
-                                    class="h-6">
+                                <img src="{{ asset('assets/Transmission.svg') }}" alt="" class="h-6">
                                 <div class="flex-col flex">
                                     <span>TRANSMISI</span>
                                     <span>AUTOMATIC</span>
                                 </div>
                             </div>
                             <div class="flex gap-1">
-                                <img src="{{ asset('assets/Link → fuel_8ecb0a0c06.svg.png') }}" alt=""
-                                    class="h-6">
+                                <img src="{{ asset('assets/Fuel.svg') }}" alt="" class="h-6">
                                 <div class="flex flex-col">
                                     <span>BAHAN BAKAR</span>
                                     <span>BENSIN</span>
                                 </div>
                             </div>
                             <div class="flex gap-1">
-                                <img src="{{ asset('assets/Link → insurance_2741837aa3.svg.png') }}" alt=""
-                                    class="h-6">
+                                <img src="{{ asset('assets/Insurance.svg') }}" alt="" class="h-6">
                                 <div class="flex flex-col">
                                     <span>ASURANSI KENDARAAN</span>
                                     <span>YES</span>
                                 </div>
                             </div>
                             <div class="flex gap-1">
-                                <img src="{{ asset('assets/Vector.png') }}" alt="" class="h-6">
+                                <img src="{{ asset('assets/Driver.svg') }}" alt="" class="h-6">
                                 <div class="flex-col flex">
                                     <span>PENGEMUDI</span>
                                     <span>YES</span>
@@ -264,6 +243,7 @@
                             </div>
                         </div>
                     </div>
+
 
                     {{-- More --}}
                     <div>
