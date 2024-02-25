@@ -43,38 +43,236 @@
                 <div class="flex justify-start px-40">
                     <span class="text-heading text-3xl font-poppins font-medium">Mobil</span>
                 </div>
-                <div class="flex gap-10 justify-center pb-10 pt-5 items-center">
-                    <div class="card-section">
-                        <div class="card-section-inside">
-                            <span></span>
+                <div class="flex flex-wrap gap-6 justify-center pb-10 pt-5 items-center">
+
+                    {{-- item 1 --}}
+                    <div class="text-smn text-text_desk w-365 flex-wrap flex items-center justify-center">
+                        <img src="{{ asset('assets/Link → image.png') }}" alt="" class="h-32">
+                        <div class="flex flex-wrap gap-4 justify-center items-center">
+                            <span class="text-xl font-bold">320i</span>
+                            <div class="flex gap-1">
+                                <img src="{{ asset('assets/Link → seat_df221162ea.svg.png') }}" alt=""
+                                    class="h-6">
+                                <div class="flex flex-col">
+                                    <span>TEMPAT DUDUK</span>
+                                    <span>3</span>
+                                </div>
+                            </div>
+                            <div class="flex gap-1">
+                                <img src="{{ asset('assets/Link → suitcase_19ac6ac950.svg.png') }}" alt=""
+                                    class="h-6">
+                                <div class="flex flex-col">
+                                    <span>BAGASI</span>
+                                    <span>2</span>
+                                </div>
+                            </div>
+                            <div class="flex gap-1">
+                                <img src="{{ asset('assets/transmission_7cba1b54e5.svg fill.png') }}" alt=""
+                                    class="h-6">
+                                <div class="flex-col flex">
+                                    <span>TRANSMISI</span>
+                                    <span>AUTOMATIC</span>
+                                </div>
+                            </div>
+                            <div class="flex gap-1">
+                                <img src="{{ asset('assets/Link → fuel_8ecb0a0c06.svg.png') }}" alt=""
+                                    class="h-6">
+                                <div class="flex flex-col">
+                                    <span>BAHAN BAKAR</span>
+                                    <span>BENSIN</span>
+                                </div>
+                            </div>
+                            <div class="flex gap-1">
+                                <img src="{{ asset('assets/Link → insurance_2741837aa3.svg.png') }}" alt=""
+                                    class="h-6">
+                                <div class="flex flex-col">
+                                    <span>ASURANSI KENDARAAN</span>
+                                    <span>YES</span>
+                                </div>
+                            </div>
+                            <div class="flex gap-1">
+                                <img src="{{ asset('assets/Vector.png') }}" alt="" class="h-6">
+                                <div class="flex-col flex">
+                                    <span>PENGEMUDI</span>
+                                    <span>YES</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="card-section">
-                        <div class="card-section-inside">
-                            <span></span>
+
+                    {{-- item 2 --}}
+                    <div class="text-smn text-text_desk w-365 flex-wrap flex items-center justify-center">
+                        <img src="{{ asset('assets/Link → image.png') }}" alt="" class="h-32">
+                        <div class="flex flex-wrap gap-4 justify-center items-center">
+                            <span class="text-xl font-bold">320i</span>
+                            <div class="flex gap-1">
+                                <img src="{{ asset('assets/Link → seat_df221162ea.svg.png') }}" alt=""
+                                    class="h-6">
+                                <div class="flex flex-col">
+                                    <span>TEMPAT DUDUK</span>
+                                    <span>3</span>
+                                </div>
+                            </div>
+                            <div class="flex gap-1">
+                                <img src="{{ asset('assets/Link → suitcase_19ac6ac950.svg.png') }}" alt=""
+                                    class="h-6">
+                                <div class="flex flex-col">
+                                    <span>BAGASI</span>
+                                    <span>2</span>
+                                </div>
+                            </div>
+                            <div class="flex gap-1">
+                                <img src="{{ asset('assets/transmission_7cba1b54e5.svg fill.png') }}" alt=""
+                                    class="h-6">
+                                <div class="flex-col flex">
+                                    <span>TRANSMISI</span>
+                                    <span>AUTOMATIC</span>
+                                </div>
+                            </div>
+                            <div class="flex gap-1">
+                                <img src="{{ asset('assets/Link → fuel_8ecb0a0c06.svg.png') }}" alt=""
+                                    class="h-6">
+                                <div class="flex flex-col">
+                                    <span>BAHAN BAKAR</span>
+                                    <span>BENSIN</span>
+                                </div>
+                            </div>
+                            <div class="flex gap-1">
+                                <img src="{{ asset('assets/Link → insurance_2741837aa3.svg.png') }}" alt=""
+                                    class="h-6">
+                                <div class="flex flex-col">
+                                    <span>ASURANSI KENDARAAN</span>
+                                    <span>YES</span>
+                                </div>
+                            </div>
+                            <div class="flex gap-1">
+                                <img src="{{ asset('assets/Vector.png') }}" alt="" class="h-6">
+                                <div class="flex-col flex">
+                                    <span>PENGEMUDI</span>
+                                    <span>YES</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="card-section">
-                        <div class="card-section-inside">
-                            <span></span>
+
+                    {{-- Item 3 --}}
+                    <div class="text-smn text-text_desk w-365 flex-wrap flex items-center justify-center">
+                        <img src="{{ asset('assets/Link → image.png') }}" alt="" class="h-32">
+                        <div class="flex flex-wrap gap-4 justify-center items-center">
+                            <span class="text-xl font-bold">320i</span>
+                            <div class="flex gap-1">
+                                <img src="{{ asset('assets/Link → seat_df221162ea.svg.png') }}" alt=""
+                                    class="h-6">
+                                <div class="flex flex-col">
+                                    <span>TEMPAT DUDUK</span>
+                                    <span>3</span>
+                                </div>
+                            </div>
+                            <div class="flex gap-1">
+                                <img src="{{ asset('assets/Link → suitcase_19ac6ac950.svg.png') }}" alt=""
+                                    class="h-6">
+                                <div class="flex flex-col">
+                                    <span>BAGASI</span>
+                                    <span>2</span>
+                                </div>
+                            </div>
+                            <div class="flex gap-1">
+                                <img src="{{ asset('assets/transmission_7cba1b54e5.svg fill.png') }}" alt=""
+                                    class="h-6">
+                                <div class="flex-col flex">
+                                    <span>TRANSMISI</span>
+                                    <span>AUTOMATIC</span>
+                                </div>
+                            </div>
+                            <div class="flex gap-1">
+                                <img src="{{ asset('assets/Link → fuel_8ecb0a0c06.svg.png') }}" alt=""
+                                    class="h-6">
+                                <div class="flex flex-col">
+                                    <span>BAHAN BAKAR</span>
+                                    <span>BENSIN</span>
+                                </div>
+                            </div>
+                            <div class="flex gap-1">
+                                <img src="{{ asset('assets/Link → insurance_2741837aa3.svg.png') }}" alt=""
+                                    class="h-6">
+                                <div class="flex flex-col">
+                                    <span>ASURANSI KENDARAAN</span>
+                                    <span>YES</span>
+                                </div>
+                            </div>
+                            <div class="flex gap-1">
+                                <img src="{{ asset('assets/Vector.png') }}" alt="" class="h-6">
+                                <div class="flex-col flex">
+                                    <span>PENGEMUDI</span>
+                                    <span>YES</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="card-section">
-                        <div class="card-section-inside">
-                            <span></span>
+
+                    {{-- Item 4 --}}
+                    <div class="text-smn text-text_desk w-365 flex-wrap flex items-center justify-center">
+                        <img src="{{ asset('assets/Link → image.png') }}" alt="" class="h-32">
+                        <div class="flex flex-wrap gap-4 justify-center items-center">
+                            <span class="text-xl font-bold">320i</span>
+                            <div class="flex gap-1">
+                                <img src="{{ asset('assets/Link → seat_df221162ea.svg.png') }}" alt=""
+                                    class="h-6">
+                                <div class="flex flex-col">
+                                    <span>TEMPAT DUDUK</span>
+                                    <span>3</span>
+                                </div>
+                            </div>
+                            <div class="flex gap-1">
+                                <img src="{{ asset('assets/Link → suitcase_19ac6ac950.svg.png') }}" alt=""
+                                    class="h-6">
+                                <div class="flex flex-col">
+                                    <span>BAGASI</span>
+                                    <span>2</span>
+                                </div>
+                            </div>
+                            <div class="flex gap-1">
+                                <img src="{{ asset('assets/transmission_7cba1b54e5.svg fill.png') }}" alt=""
+                                    class="h-6">
+                                <div class="flex-col flex">
+                                    <span>TRANSMISI</span>
+                                    <span>AUTOMATIC</span>
+                                </div>
+                            </div>
+                            <div class="flex gap-1">
+                                <img src="{{ asset('assets/Link → fuel_8ecb0a0c06.svg.png') }}" alt=""
+                                    class="h-6">
+                                <div class="flex flex-col">
+                                    <span>BAHAN BAKAR</span>
+                                    <span>BENSIN</span>
+                                </div>
+                            </div>
+                            <div class="flex gap-1">
+                                <img src="{{ asset('assets/Link → insurance_2741837aa3.svg.png') }}" alt=""
+                                    class="h-6">
+                                <div class="flex flex-col">
+                                    <span>ASURANSI KENDARAAN</span>
+                                    <span>YES</span>
+                                </div>
+                            </div>
+                            <div class="flex gap-1">
+                                <img src="{{ asset('assets/Vector.png') }}" alt="" class="h-6">
+                                <div class="flex-col flex">
+                                    <span>PENGEMUDI</span>
+                                    <span>YES</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="card-section">
-                        <div class="card-section-inside">
-                            <span></span>
-                        </div>
-                    </div>
+
+                    {{-- More --}}
                     <div>
                         <a href="{{ route('selection') }}" class="flex flex-col"><i
                                 class="bi bi-chevron-right text-2xl"></i>
                             <span>More...</span></a>
                     </div>
                 </div>
+
 
                 <div class="flex justify-start px-40">
                     <span class="text-heading text-3xl font-poppins font-medium">Motor</span>
@@ -195,7 +393,8 @@
             </div>
             <div class="flex flex-col w-96">
                 <span class="text-4xl font-poppins text-primary pt-5 font-bold">Tentang L`Rent</span>
-                <span class="pt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, sequi rerum? Accusamus
+                <span class="pt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, sequi rerum?
+                    Accusamus
                     quidem cumque
                     nostrum, dicta atque inventore iure quis reprehenderit, obcaecati modi assumenda natus error ex non vero
                     quod!</span>
