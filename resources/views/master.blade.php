@@ -14,11 +14,7 @@
 
     @include('layouts.navbar')
 
-    {{-- Bagian Section 1 --}}
-    @yield('section1')
-
-    {{-- Bagian Section 2 ( Jika pada tampilan tidak mempunyai section 2 maka buat saja section 2 isinya kosong ) --}}
-    @yield('section2')
+    @yield('content')
 
     @include('layouts.footer')
 </body>
