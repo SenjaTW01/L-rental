@@ -366,17 +366,20 @@
 
 
         <section>
-            <div class="bg-gray_white w-auto h-196 flex">
-                <img src="{{ asset('asset/Frame.png') }}" alt="Ilustrasi" class="pl-48 pt-12">
-                <div class="flex-col justify-center pt-24 pl-32">
-                    <h1 class="text-primary text-4xl font-bold">Tentang Kami</h1>
-                    <div class="font-semibold text-xl max-w-135 pt-8">
-                        <p>L’rent adalah Web sewa mobil di Ciamis yang hadir untuk memberikan kemudahan dan kecepatan bagi
-                            anda dalam menyewa mobil di Ciamis. Dimanapun dan kapanpun. <br><br> Kami memungkinkan anda
-                            untuk dapat mengakses puluhan unit mobil siap sewa yang dapat anda pilih sesuai kebutuhan. Mulai
-                            dari City Car Agya, MPV Innova hingga Minibus Elf. Semua dapat anda sewa hanya dengan satu klik,
-                            hanya di Bali Citra Medina.</p>
-                    </div>
+            <div class="flex items-center bg-gray_white">
+                <div class="w-800">
+                    <img src="{{ asset('asset/Ilustrasi L.Rent.svg') }}" alt="" class="w-full">
+                </div>
+                <div class="flex flex-col gap-7 w-500">
+                    <span class="text-4xl font-bold text-primary">Tentang Kami</span>
+                    <span class="text-slate-800 font-semibold">L’rent adalah Web sewa mobil di Ciamis yang hadir untuk
+                        memberikan
+                        kemudahan dan
+                        kecepatan bagi
+                        anda dalam menyewa mobil di Ciamis. Dimanapun dan kapanpun. <br><br> Kami memungkinkan anda
+                        untuk dapat mengakses puluhan unit mobil siap sewa yang dapat anda pilih sesuai kebutuhan. Mulai
+                        dari City Car Agya, MPV Innova hingga Minibus Elf. Semua dapat anda sewa hanya dengan satu klik,
+                        hanya di Bali Citra Medina.</span>
                 </div>
             </div>
         </section>
