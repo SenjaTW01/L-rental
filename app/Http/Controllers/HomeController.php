@@ -15,4 +15,10 @@ class HomeController extends Controller
     {
         return view('selection');
     }
+    public function pembayaran(){
+        return view('pembayaranPage');
+    }
+    public function beli(){
+        return view('belipage');
+    }
 }
