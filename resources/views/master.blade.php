@@ -20,11 +20,6 @@
     {{-- Bagian Section 2 ( Jika pada tampilan tidak mempunyai section 2 maka buat saja section 2 isinya kosong ) --}}
     @yield('section2')
 
-
-    {{-- Bagian Section 2 ( Jika pada tampilan tidak mempunyai section 2 maka buat saja section 2 isinya kosong ) --}}
-    @yield('section3')
-
-
     @include('layouts.footer')
 </body>
 
