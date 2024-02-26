@@ -1,4 +1,4 @@
-<section class="pt-10 bg-footer ">
+<section class="pt-10 bg-primary ">
     <div class="flex justify-around text-sm text-white pb-20">
         <div class="flex flex-col w-64 gap-3">
             <span class="font-bold text-2xl">Kantor</span>
