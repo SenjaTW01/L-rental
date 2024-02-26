@@ -22,6 +22,9 @@ export default {
                 27: "6.5rem",
                 // card size
                 365: "365px",
+                196: "196px",
+                500: '500px',
+                800: "800px"
             },
             fontFamily: {
                 poppins: ["Poppins", "sans-serif"],

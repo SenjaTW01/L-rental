@@ -11,9 +11,9 @@
 <body>
     @extends('master')
 
-    @section('section1')
+    @section('content')
         <section>
-            <div class="flex flex-wrap gap-6 justify-center pb-10 pt-5 items-center">
+            <div class="flex flex-wrap gap-6 justify-center pb-10 pt-5 items-center text-start">
 
                 {{-- item 1 --}}
                 <div class="text-smn text-text_desk w-365 flex-wrap flex items-center justify-center">
