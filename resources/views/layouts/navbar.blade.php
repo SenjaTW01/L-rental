@@ -1,7 +1,12 @@
 <nav class="flex justify-between items-center bg-nav_color py-4 ps-20 pe-16">
     {{-- Bagian 1 --}}
-    <div class="">
-        <span class="text-secondary">LOGO</span>
+    <div class=" flex">
+        <div class="flex items-center gap-2">
+            <div class="w-14">
+        <img src="{{asset('asset/Logo.png')}}" alt="" class="w-full">
+            </div>
+        <h6 class=" text-white font-poppins text-xl font-semibold">L.Rent</h6>
+        </div>
     </div>
     {{-- Bagian 2 --}}
     <div class="ms-32 px-4 bg-secondary rounded-full py-1">

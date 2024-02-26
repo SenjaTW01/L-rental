@@ -11,13 +11,15 @@
 <body>
     @extends('master')
 
-    @section('section1')
+    @section('content')
         <section>
             <div class="flex flex-wrap gap-6 justify-center pb-10 pt-5 items-center">
 
                 {{-- item 1 --}}
                 <div class="text-smn text-text_desk w-365 flex-wrap flex items-center justify-center">
+                    <a href="{{route('Beli')}}">
                     <img src="{{ asset('assets/MobilTest.svg') }}" alt="" class="h-32">
+                    </a>
                     <div class="flex flex-wrap gap-4 justify-center items-center">
                         <span class="text-xl font-bold">320i</span>
                         <div class="flex gap-1">

@@ -247,7 +247,7 @@
                     <div>
                         <a href="{{ route('selection') }}" class="flex flex-col"><i
                                 class="bi bi-chevron-right text-2xl"></i>
-                            <span>More...</span></a>
+                            <span>More</span></a>
                     </div>
                 </div>
 
