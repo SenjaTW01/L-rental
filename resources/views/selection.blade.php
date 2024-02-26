@@ -17,7 +17,7 @@
 
                 {{-- item 1 --}}
                 <div class="text-smn text-text_desk w-365 flex-wrap flex items-center justify-center">
-                    <img src="{{ asset('assets/Link → image.png') }}" alt="" class="h-32">
+                    <img src="{{ asset('assets/MobilTest.svg') }}" alt="" class="h-32">
                     <div class="flex flex-wrap gap-4 justify-center items-center">
                         <span class="text-xl font-bold">320i</span>
                         <div class="flex gap-1">
@@ -66,7 +66,7 @@
                 </div>
                 {{-- item 2 --}}
                 <div class="text-smn text-text_desk w-365 flex-wrap flex items-center justify-center">
-                    <img src="{{ asset('assets/Link → image.png') }}" alt="" class="h-32">
+                    <img src="{{ asset('assets/MobilTest.svg') }}" alt="" class="h-32">
                     <div class="flex flex-wrap gap-4 justify-center items-center">
                         <span class="text-xl font-bold">320i</span>
                         <div class="flex gap-1">
@@ -116,7 +116,7 @@
 
                 {{-- item 3 --}}
                 <div class="text-smn text-text_desk w-365 flex-wrap flex items-center justify-center">
-                    <img src="{{ asset('assets/Link → image.png') }}" alt="" class="h-32">
+                    <img src="{{ asset('assets/MobilTest.svg') }}" alt="" class="h-32">
                     <div class="flex flex-wrap gap-4 justify-center items-center">
                         <span class="text-xl font-bold">320i</span>
                         <div class="flex gap-1">
@@ -166,7 +166,7 @@
 
                 {{-- item 4 --}}
                 <div class="text-smn text-text_desk w-365 flex-wrap flex items-center justify-center">
-                    <img src="{{ asset('assets/Link → image.png') }}" alt="" class="h-32">
+                    <img src="{{ asset('assets/MobilTest.svg') }}" alt="" class="h-32">
                     <div class="flex flex-wrap gap-4 justify-center items-center">
                         <span class="text-xl font-bold">320i</span>
                         <div class="flex gap-1">
@@ -216,7 +216,7 @@
 
                 {{-- item 4 --}}
                 <div class="text-smn text-text_desk w-365 flex-wrap flex items-center justify-center">
-                    <img src="{{ asset('assets/Link → image.png') }}" alt="" class="h-32">
+                    <img src="{{ asset('assets/MobilTest.svg') }}" alt="" class="h-32">
                     <div class="flex flex-wrap gap-4 justify-center items-center">
                         <span class="text-xl font-bold">320i</span>
                         <div class="flex gap-1">

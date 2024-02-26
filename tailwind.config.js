@@ -11,7 +11,9 @@ export default {
             'nav-color': '#1F4867',
             'sec3': '#E4E4E4',
             'heading': '#164e63',
-            'text_desk': '#414042'
+            'text_desk': '#414042',
+            'footer': '#388CCB',
+            'white': '#ffffff'
 
         },
         extend: {
