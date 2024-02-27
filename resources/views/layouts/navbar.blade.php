@@ -2,10 +2,10 @@
     {{-- Bagian 1 --}}
     <div class=" flex">
         <div class="flex items-center gap-2">
-            <div class="w-14">
-        <img src="{{asset('asset/Logo.png')}}" alt="" class="w-full">
+            <div class="w-10">
+                <img src="{{ asset('asset/Logo.png') }}" alt="" class="w-full">
             </div>
-        <h6 class=" text-white font-poppins text-xl font-semibold">L.Rent</h6>
+            <h6 class=" text-white font-poppins text-xl font-semibold">L.Rent</h6>
         </div>
     </div>
     {{-- Bagian 2 --}}
