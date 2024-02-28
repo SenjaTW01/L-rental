@@ -1,4 +1,4 @@
-<nav class=" font-poppins bg-nav_color text-font_color_primary flex justify-between px-10 pt-4 pb-5">
+<nav class="  bg-nav_color text-font_color_primary flex justify-between px-10 pt-4 pb-5">
     <link rel="stylesheet" href="{{ asset('css/pluss.css') }}">
     <link rel='stylesheet'
         href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-straight/css/uicons-regular-straight.css'>
@@ -59,22 +59,22 @@
                 </div>
                 <div class="flex flex-col justify-center items-center content h-full">
                     <!-- Menambahkan class h-full -->
-                    <div class="flex items-center gap-5 h-10 mb-2 hover:bg-white w-full justify-center border-b-2 ">
+                    <div class="flex items-center gap-5 h-10 mb-2 hover:bg-white w-full justify-start border-b-2 ps-28">
                         <a href="" class="">Whislist</a>
                         <button class="w-6">
                             <img src="{{ asset('assets/shopping-cart.png') }}" alt="" class="w-full ">
                         </button>
                     </div>
-                    <div class="flex items-center gap-5 h-10 mb-2 hover:bg-white w-full justify-center border-b-2 ">
-                        <a href="" class="">Whislist</a>
+                    <div class="flex items-center gap-5 h-10 mb-2 hover:bg-white w-full justify-start border-b-2 ps-28">
+                        <a href="" class="">Notifikasi</a>
                         <button class="w-6">
-                            <img src="{{ asset('assets/shopping-cart.png') }}" alt="" class="w-full ">
+                            <img src="{{ asset('assets/bell.png') }}" alt="" class="w-full">
                         </button>
                     </div>
-                    <div class="flex items-center gap-5 h-10 mb-2 hover:bg-white w-full justify-center border-b-2 ">
-                        <a href="" class="">Whislist</a>
+                    <div class="flex items-center gap-5 h-10 mb-2 hover:bg-white w-full ps-28 border-b-2 ">
+                        <a href="" class="">Email</a>
                         <button class="w-6">
-                            <img src="{{ asset('assets/shopping-cart.png') }}" alt="" class="w-full ">
+                            <img src="{{ asset('assets/envelope.png') }}" alt="" class="w-full ">
                         </button>
                     </div>
                 </div>

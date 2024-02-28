@@ -1,24 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-
-<body>
     @extends('master')
 
     @section('content')
-        <section>
+        <section class="font-poppins">
             <div class="flex flex-wrap gap-6 justify-center pb-10 pt-5 items-center text-start">
 
                 {{-- item 1 --}}
                 <div class="text-smn text-text_desk w-365 flex-wrap flex items-center justify-center">
-                    <a href="{{route('Beli')}}">
-                    <img src="{{ asset('assets/MobilTest.svg') }}" alt="" class="h-32">
+                    <a href="{{ route('Beli') }}">
+                        <img src="{{ asset('assets/MobilTest.svg') }}" alt="" class="h-32">
                     </a>
                     <div class="flex flex-wrap gap-4 justify-center items-center">
                         <span class="text-xl font-bold">320i</span>
@@ -268,6 +257,3 @@
             </div>
         </section>
     @endsection
-</body>
-
-</html>

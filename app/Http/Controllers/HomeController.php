@@ -8,17 +8,19 @@ class HomeController extends Controller
 {
     public function homePage()
     {
-        return view('homePage');
+        return view('layouts.homePage');
     }
 
     public function selection()
     {
-        return view('selection');
+        return view('layouts.selection');
     }
-    public function pembayaran(){
-        return view('pembayaranPage');
+    public function pembayaran()
+    {
+        return view('layouts.pembayaranPage');
     }
-    public function beli(){
-        return view('belipage');
+    public function beli()
+    {
+        return view('layouts.belipage');
     }
 }

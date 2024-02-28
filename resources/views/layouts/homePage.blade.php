@@ -29,7 +29,7 @@
 
         <section class="bg-primary flex justify-center flex-col">
             <div class="flex px-40 pt-10">
-                <span class="text-font_color_primary text-4xl font-poppins font-medium">
+                <span class="text-font_color_primary text-4xl  font-medium">
                     Mau Nyari tempat <span class="text-secondary">rental </span> <br>tapi bingung tempatnya dimana?
                     <br><span class="text-secondary">L - Rent in
                         Aja !</span>
@@ -38,10 +38,10 @@
 
             <div class="py-16">
                 <div class="flex justify-center px-20">
-                    <span class="text-font_color_primary text-3xl font-poppins font-medium">Kendaraan ?</span>
+                    <span class="text-font_color_primary text-3xl  font-medium">Kendaraan ?</span>
                 </div>
                 <div class="flex justify-start px-40">
-                    <span class="text-font_color_primary text-3xl font-poppins font-medium">Mobil</span>
+                    <span class="text-font_color_primary text-3xl  font-medium">Mobil</span>
                 </div>
                 <div class="flex flex-wrap gap-6 justify-center pb-10 pt-5 items-center">
 
@@ -258,7 +258,7 @@
 
 
                 <div class="flex justify-start px-40">
-                    <span class="text-font_color_primary text-3xl font-poppins font-medium">Motor</span>
+                    <span class="text-font_color_primary text-3xl font-medium">Motor</span>
                 </div>
                 <div class="flex gap-10 justify-center pb-10 pt-5 items-center">
                     <div class="card-section">
@@ -293,10 +293,10 @@
                 </div>
 
                 <div class="flex justify-center px-20 pt-14">
-                    <span class="text-font_color_primary text-3xl font-poppins font-medium">Pakaian ?</span>
+                    <span class="text-font_color_primary text-3xl font-medium">Pakaian ?</span>
                 </div>
                 <div class="flex justify-start px-40">
-                    <span class="text-font_color_primary text-3xl font-poppins font-medium">Pakaian Adat</span>
+                    <span class="text-font_color_primary text-3xl  font-medium">Pakaian Adat</span>
                 </div>
                 <div class="flex gap-10 justify-center pb-10 pt-5 items-center">
                     <div class="card-section">
@@ -331,7 +331,7 @@
                 </div>
 
                 <div class="flex justify-start px-40">
-                    <span class="text-font_color_primary text-3xl font-poppins font-medium">Pakaian Coseplay</span>
+                    <span class="text-font_color_primary text-3xl  font-medium">Pakaian Coseplay</span>
                 </div>
                 <div class="flex gap-10 justify-center pb-10 pt-5 items-center">
                     <div class="card-section">

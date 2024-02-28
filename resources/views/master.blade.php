@@ -10,15 +10,15 @@
     <title>Document</title>
 </head>
 
-<body>
+<body class="font-poppins">
 
-    @include('layouts.navbar')
+    @include('components.navbar')
 
     {{-- @include('layouts.sidebar') --}}
 
     @yield('content')
 
-    @include('layouts.footer')
+    @include('components.footer')
 </body>
 
 </html>
