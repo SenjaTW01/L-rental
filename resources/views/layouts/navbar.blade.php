@@ -1,31 +1,95 @@
-<nav class="flex justify-between items-center bg-nav_color py-4 ps-20 pe-16">
-    {{-- Bagian 1 --}}
-    <div class=" flex">
-        <div class="flex items-center gap-2">
-            <div class="w-10">
-                <img src="{{ asset('asset/Logo.png') }}" alt="" class="w-full">
+<nav class=" font-poppins bg-nav_color text-font_color_primary flex justify-between px-10 pt-4 pb-5">
+    <link rel="stylesheet" href="{{ asset('css/pluss.css') }}">
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <div class="">
+        <div class="flex gap-6">
+            <div class="flex items-center gap-3">
+                <div class="img-con w-10">
+                    <img src="{{ asset('assets/Logo.jpg') }}" alt="" class="w-full">
+                </div>
+                <div class="">
+                    <a class="text-2xl font-medium">L- Rent</a>
+                </div>
             </div>
-            <h6 class=" text-white font-poppins text-xl font-semibold">L.Rent</h6>
         </div>
     </div>
-    {{-- Bagian 2 --}}
-    <div class="ms-32 px-4 bg-secondary rounded-full py-1">
-        <label for="search" class="text-primary pe-2 hover:cursor-pointer"><i class="bi bi-search"></i></label>
-        <input type="text" name="" id="search"
-            class="w-64 focus:outline-none focus:w-80 transition-all ease-in-out delay-100 outline-none">
-        <button class="text-primary"><i class="bi bi-list"></i></button>
-    </div>
-    {{-- Bagian 3 --}}
-    <div class="flex gap-11">
-        <div class="flex gap-2">
-            <button class="text-secondary text-xl"><i class="bi bi-cart3"></i></button>
-            <button class="text-secondary text-xl"><i class="bi bi-bell"></i></button>
-            <button class="text-secondary text-xl"><i class="bi bi-envelope"></i></button>
+    <div class="flex gap-8 items-center">
+        <button></button>
+        <button></button>
+        <button></button>
+        <div class="flex items-center gap-3 border px-3 py-1 rounded-lg transition-all ease-in-out duration-500 ">
+            <button class="w-5">
+                <img src="{{ asset('assets/search.svg') }}" alt="" class="w-full">
+            </button>
+            <div class="transition-all ease-in-out duration-500">
+                <input type="text" name="" id="" placeholder="Search"
+                    class="placeholder:text-sm text-sm ps-4 inp-nv-nav focus:w-96 transition-all ease-in-out duration-500">
+            </div>
         </div>
-        <div class="text-secondary flex gap-2">
-            <a href="">sign In</a>
-            <span>||</span>
-            <a href="">Login</a>
+
+
+        <div class="flex items-center gap-3">
+            <button class="w-6">
+                <img src="{{ asset('assets/circle-user.svg') }}" alt="" class="w-full">
+            </button>
+            <div class="">
+                <a class="font-medium">Login</a>
+            </div>
         </div>
+
+        <div class="flex items-center gap-2">
+            <button class="w-5">
+                <img src="{{ asset('assets/user-add.svg') }}" alt="" class="w-full">
+            </button>
+            <a class="font-medium">Register</a>
+        </div>
+
+        <button class="text-2xl text-font_color_primary" onclick="sidebar()">
+            <i class="bi bi-list"></i>
+        </button>
+
+        <section id="sidebar" class="fixed right-0 top-0 text-primary hidden">
+            <div class="w-365 bg-font_color_primary p-5 h-screen container">
+                <div class="flex justify-start">
+                    <button class="text-2xl" onclick="sidebar()">
+                        <i class="bi bi-list"></i>
+                    </button>
+                </div>
+                <div class="flex flex-col justify-center items-center content h-full">
+                    <!-- Menambahkan class h-full -->
+                    <div class="flex items-center gap-5 h-10 mb-2 hover:bg-white w-full justify-center border-b-2 ">
+                        <a href="" class="">Whislist</a>
+                        <button class="w-6">
+                            <img src="{{ asset('assets/shopping-cart.png') }}" alt="" class="w-full ">
+                        </button>
+                    </div>
+                    <div class="flex items-center gap-5 h-10 mb-2 hover:bg-white w-full justify-center border-b-2 ">
+                        <a href="" class="">Whislist</a>
+                        <button class="w-6">
+                            <img src="{{ asset('assets/shopping-cart.png') }}" alt="" class="w-full ">
+                        </button>
+                    </div>
+                    <div class="flex items-center gap-5 h-10 mb-2 hover:bg-white w-full justify-center border-b-2 ">
+                        <a href="" class="">Whislist</a>
+                        <button class="w-6">
+                            <img src="{{ asset('assets/shopping-cart.png') }}" alt="" class="w-full ">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </div>
 </nav>
+
+
+
+
+<script>
+    const sidebar = () => {
+        const sidebar = document.getElementById('sidebar');
+        sidebar.classList.toggle('hidden');
+    }
+</script>

@@ -1,0 +1,16 @@
+.side-nv-container:hover .side-nv-txt {
+    display: block;
+}
+
+.side-nv-txt {
+    display: none;
+}
+
+.inp-nv-nav {
+    border: none;
+    outline: none;
+}
+.inp-nv-nav:focus {
+    border: none;
+    outline: none;
+}

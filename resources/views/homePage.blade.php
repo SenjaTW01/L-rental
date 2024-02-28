@@ -19,34 +19,37 @@
     @section('content')
         <section class="bg-primary flex justify-center gap-10 p-8">
             {{-- img pindah --}}
-            <div class="w-135 h-56 bg-secondary overflow-hidden rounded-2xl"></div>
+            <div class="w-135 h-56 bg-white overflow-hidden rounded-2xl"></div>
             {{-- iklan --}}
             <div class="flex flex-col gap-4">
-                <div class="w-96 h-27 bg-secondary overflow-hidden rounded-2xl"></div>
-                <div class="w-96 h-27 bg-secondary overflow-hidden rounded-2xl"></div>
+                <div class="w-96 h-27 bg-white overflow-hidden rounded-2xl"></div>
+                <div class="w-96 h-27 bg-white overflow-hidden rounded-2xl"></div>
             </div>
         </section>
 
-        <section class="bg-secondary flex justify-center flex-col">
+        <section class="bg-primary flex justify-center flex-col">
             <div class="flex px-40 pt-10">
-                <span class="text-heading text-4xl font-poppins font-medium">
-                    Mau Nyari tempat rental <br>tapi bingung tempatnya dimana? <br>L - Rent in Aja !
+                <span class="text-font_color_primary text-4xl font-poppins font-medium">
+                    Mau Nyari tempat <span class="text-secondary">rental </span> <br>tapi bingung tempatnya dimana?
+                    <br><span class="text-secondary">L - Rent in
+                        Aja !</span>
                 </span>
             </div>
 
             <div class="py-16">
                 <div class="flex justify-center px-20">
-                    <span class="text-heading text-3xl font-poppins font-medium">Kendaraan ?</span>
+                    <span class="text-font_color_primary text-3xl font-poppins font-medium">Kendaraan ?</span>
                 </div>
                 <div class="flex justify-start px-40">
-                    <span class="text-heading text-3xl font-poppins font-medium">Mobil</span>
+                    <span class="text-font_color_primary text-3xl font-poppins font-medium">Mobil</span>
                 </div>
                 <div class="flex flex-wrap gap-6 justify-center pb-10 pt-5 items-center">
 
                     {{-- item 1 --}}
-                    <div class="text-smn text-text_desk w-365 flex-wrap flex items-center justify-center">
+                    <div
+                        class="text-smn text-text_desk w-365 flex-wrap flex items-center justify-center p-4 rounded-xl hover:bg-slate-300 transition-all ease-in-out duration-500">
                         <img src="{{ asset('assets/MobilTest.svg') }}" alt="" class="h-32">
-                        <div class="flex flex-wrap gap-4 justify-center items-center">
+                        <div class="flex flex-wrap gap-4 justify-center items-center bg-transparent">
                             <span class="text-xl font-bold">320i</span>
                             <div class="flex gap-1">
                                 <img src="{{ asset('assets/Seat.svg') }}" alt="" class="h-6">
@@ -93,9 +96,10 @@
                         </div>
                     </div>
                     {{-- item 2 --}}
-                    <div class="text-smn text-text_desk w-365 flex-wrap flex items-center justify-center">
+                    <div
+                        class="text-smn text-text_desk w-365 flex-wrap flex items-center justify-center p-4 rounded-xl hover:bg-slate-300 transition-all ease-in-out duration-500">
                         <img src="{{ asset('assets/MobilTest.svg') }}" alt="" class="h-32">
-                        <div class="flex flex-wrap gap-4 justify-center items-center">
+                        <div class="flex flex-wrap gap-4 justify-center items-center bg-transparent">
                             <span class="text-xl font-bold">320i</span>
                             <div class="flex gap-1">
                                 <img src="{{ asset('assets/Seat.svg') }}" alt="" class="h-6">
@@ -143,9 +147,10 @@
                     </div>
 
                     {{-- item 3 --}}
-                    <div class="text-smn text-text_desk w-365 flex-wrap flex items-center justify-center">
+                    <div
+                        class="text-smn text-text_desk w-365 flex-wrap flex items-center justify-center p-4 rounded-xl hover:bg-slate-300 transition-all ease-in-out duration-500">
                         <img src="{{ asset('assets/MobilTest.svg') }}" alt="" class="h-32">
-                        <div class="flex flex-wrap gap-4 justify-center items-center">
+                        <div class="flex flex-wrap gap-4 justify-center items-center bg-transparent">
                             <span class="text-xl font-bold">320i</span>
                             <div class="flex gap-1">
                                 <img src="{{ asset('assets/Seat.svg') }}" alt="" class="h-6">
@@ -193,9 +198,10 @@
                     </div>
 
                     {{-- item 4 --}}
-                    <div class="text-smn text-text_desk w-365 flex-wrap flex items-center justify-center">
+                    <div
+                        class="text-smn text-text_desk w-365 flex-wrap flex items-center justify-center p-4 rounded-xl hover:bg-slate-300 transition-all ease-in-out duration-500">
                         <img src="{{ asset('assets/MobilTest.svg') }}" alt="" class="h-32">
-                        <div class="flex flex-wrap gap-4 justify-center items-center">
+                        <div class="flex flex-wrap gap-4 justify-center items-center bg-transparent">
                             <span class="text-xl font-bold">320i</span>
                             <div class="flex gap-1">
                                 <img src="{{ asset('assets/Seat.svg') }}" alt="" class="h-6">
@@ -242,7 +248,6 @@
                         </div>
                     </div>
 
-
                     {{-- More --}}
                     <div>
                         <a href="{{ route('selection') }}" class="flex flex-col"><i
@@ -253,7 +258,7 @@
 
 
                 <div class="flex justify-start px-40">
-                    <span class="text-heading text-3xl font-poppins font-medium">Motor</span>
+                    <span class="text-font_color_primary text-3xl font-poppins font-medium">Motor</span>
                 </div>
                 <div class="flex gap-10 justify-center pb-10 pt-5 items-center">
                     <div class="card-section">
@@ -288,10 +293,10 @@
                 </div>
 
                 <div class="flex justify-center px-20 pt-14">
-                    <span class="text-heading text-3xl font-poppins font-medium">Pakaian ?</span>
+                    <span class="text-font_color_primary text-3xl font-poppins font-medium">Pakaian ?</span>
                 </div>
                 <div class="flex justify-start px-40">
-                    <span class="text-heading text-3xl font-poppins font-medium">Pakaian Adat</span>
+                    <span class="text-font_color_primary text-3xl font-poppins font-medium">Pakaian Adat</span>
                 </div>
                 <div class="flex gap-10 justify-center pb-10 pt-5 items-center">
                     <div class="card-section">
@@ -326,7 +331,7 @@
                 </div>
 
                 <div class="flex justify-start px-40">
-                    <span class="text-heading text-3xl font-poppins font-medium">Pakaian Coseplay</span>
+                    <span class="text-font_color_primary text-3xl font-poppins font-medium">Pakaian Coseplay</span>
                 </div>
                 <div class="flex gap-10 justify-center pb-10 pt-5 items-center">
                     <div class="card-section">
@@ -371,8 +376,10 @@
                     <img src="{{ asset('asset/Ilustrasi L.Rent.svg') }}" alt="" class="w-full">
                 </div>
                 <div class="flex flex-col gap-7 w-500">
-                    <span class="text-4xl font-bold text-primary">Tentang Kami</span>
-                    <span class="text-slate-800 font-semibold">L’rent adalah Web sewa mobil di Ciamis yang hadir untuk
+                    <span class="text-4xl font-bold text-font_color_primary">Tentang <span class="text-secondary">
+                            Kami</span></span>
+                    <span class="text-font_color_primary font-semibold ">L’rent adalah Web sewa mobil di Ciamis yang
+                        hadir untuk
                         memberikan
                         kemudahan dan
                         kecepatan bagi
