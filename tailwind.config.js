@@ -8,7 +8,7 @@ export default {
         extend: {
             colors: {
                 primary: "#EBEBEB",
-                secondary: "#8FCB47",
+                secondary: "#64748b",
                 nav_color: "#ffffff",
                 font_color_primary: '#222222',
                 gray_white: "rgb(241 245 249)",

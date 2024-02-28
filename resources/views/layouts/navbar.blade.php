@@ -46,14 +46,14 @@
             <a class="font-medium">Register</a>
         </div>
 
-        <button class="text-2xl text-font_color_primary" onclick="sidebar()">
+        <button class="text-2xl text-font_color_primary" onclick="sidebaron()">
             <i class="bi bi-list"></i>
         </button>
 
-        <section id="sidebar" class="fixed right-0 top-0 text-primary hidden">
+        <section id="sidebar" class="fixed right-0 top-0 text-primary hidden animation-nv-nav">
             <div class="w-365 bg-font_color_primary p-5 h-screen container">
                 <div class="flex justify-start">
-                    <button class="text-2xl" onclick="sidebar()">
+                    <button class="text-2xl" onclick="sidebarof()">
                         <i class="bi bi-list"></i>
                     </button>
                 </div>
@@ -88,8 +88,19 @@
 
 
 <script>
-    const sidebar = () => {
-        const sidebar = document.getElementById('sidebar');
-        sidebar.classList.toggle('hidden');
+    const sidebaron = () => {
+        const sidebar = document.querySelector('#sidebar')
+        sidebar.classList.remove('hidden');
+        sidebar.classList.remove('fade-out-right');
+        sidebar.classList.add('animation-nv-nav');
+    }
+
+    const sidebarof = () => {
+        const side = document.querySelector('#sidebar')
+        side.classList.add('fade-out-right');
+        side.classList.remove('animation-nv-nav');
+        setTimeout(() => {
+            side.classList.add('hidden');
+        }, 300);
     }
 </script>

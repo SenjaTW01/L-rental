@@ -1,14 +1,15 @@
-<section class="pt-10 bg-primary ">
-    <div class="flex justify-around text-sm text-white pb-20">
+<section class="pt-10 bg-secondary ">
+    <div class="flex justify-around text-sm text-primary pb-20">
         <div class="flex flex-col w-64 gap-3">
-            <span class="font-bold text-2xl">Kantor</span>
-            <span>Jl. Juwet Sari Gg. Batas No.18, Pemogan, Kec. Denpasar Sel., Kota Denpasar, Bali 80361</span>
+            <a class="font-bold text-2xl">Kantor</a>
+            <a class ="cursor-pointer">Jl. Juwet Sari Gg. Batas No.18, Pemogan, Kec. Denpasar Sel., Kota Denpasar, Bali
+                80361</a>
 
             <div class="flex flex-col">
-                <span class="font-bold text-2xl">Kontak Kami</span>
-                <span>Phone 1</span>
-                <span>Phone 2</span>
-                <span>Email</span>
+                <a class="font-bold text-2xl ">Kontak Kami</a>
+                <a class ="cursor-pointer">Phone 1</a>
+                <a class ="cursor-pointer">Phone 2</a>
+                <a class ="cursor-pointer">Email</a>
             </div>
 
             <div class="">
@@ -21,35 +22,35 @@
             </div>
 
             <div class="">
-                <span>Made with Develop by Sendi & Nova
-                    © 2024 L’rent Ciamis</span>
+                <a class ="cursor-pointer">Made with Develop by Sendi & Nova
+                    © 2024 L’rent Ciamis</a>
             </div>
         </div>
         <div class="flex flex-col w-56 gap-5">
             <div class="flex flex-col gap-4">
-                <span class="font-bold text-2xl">Halaman</span>
+                <a class="font-bold text-2xl">Halaman</a>
                 <div class="flex flex-col gap-3">
-                    <span>Beranda</span>
-                    <span>Daftar Mobil</span>
-                    <span>Daftar Harga</span>
-                    <span>Tentang Kami</span>
-                    <span>Contact</span>
-                    <span>FAQ</span>
+                    <a class ="cursor-pointer">Beranda</a>
+                    <a class ="cursor-pointer">Daftar Mobil</a>
+                    <a class ="cursor-pointer">Daftar Harga</a>
+                    <a class ="cursor-pointer">Tentang Kami</a>
+                    <a class ="cursor-pointer">Contact</a>
+                    <a class ="cursor-pointer">FAQ</a>
                 </div>
             </div>
 
             <div class="flex flex-col">
-                <span class="font-bold text-2xl">Lainnya</span>
-                <span>Cara Pesan Mobil Sewa
+                <a class="font-bold text-2xl">Lainnya</a>
+                <a class ="cursor-pointer">Cara Pesan Mobil Sewa
                     Ketentuan & Persyaratan
-                    Tips dan Trick Sewa Mobil</span>
+                    Tips dan Trick Sewa Mobil</a>
             </div>
         </div>
         <div class="flex flex-col gap-6">
-            <span class="font-bold text-2xl">Daftar Mobil</span>
-            <span class="font-bold text-2xl">Daftar Motor</span>
-            <span class="font-bold text-2xl">Daftar Pakaian Adat</span>
-            <span class="font-bold text-2xl">Daftar Pakaian Cosplay</span>
+            <a class="font-bold text-xl cursor-pointer">Daftar Mobil</a>
+            <a class="font-bold text-xl cursor-pointer">Daftar Motor</a>
+            <a class="font-bold text-xl cursor-pointer">Daftar Pakaian Adat</a>
+            <a class="font-bold text-xl cursor-pointer">Daftar Pakaian Cosplay</a>
         </div>
     </div>
 </section>
