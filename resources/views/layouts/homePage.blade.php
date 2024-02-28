@@ -28,7 +28,7 @@
         </section>
 
         <section class="bg-primary flex justify-center flex-col">
-            <div class="flex px-40 pt-10">
+            <div class="flex px-40 pt-10" data-aos="fade-right" data-aos-duration="1000">
                 <span class="text-font_color_primary text-4xl  font-medium">
                     Mau Nyari tempat <span class="text-secondary">rental </span> <br>tapi bingung tempatnya dimana?
                     <br><span class="text-secondary">L - Rent in
@@ -37,17 +37,17 @@
             </div>
 
             <div class="py-16">
-                <div class="flex justify-center px-20">
+                <div class="flex justify-center px-20" data-aos="fade-up" data-aos-duration="1000">
                     <span class="text-font_color_primary text-3xl  font-medium">Kendaraan ?</span>
                 </div>
-                <div class="flex justify-start px-40">
+                <div class="flex justify-start px-40" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                     <span class="text-font_color_primary text-3xl  font-medium">Mobil</span>
                 </div>
                 <div class="flex flex-wrap gap-6 justify-center pb-10 pt-5 items-center">
 
                     {{-- item 1 --}}
-                    <div
-                        class="text-smn text-text_desk w-365 flex-wrap flex items-center justify-center p-4 rounded-xl hover:bg-slate-300 transition-all ease-in-out duration-500">
+                    <div class="text-smn text-text_desk w-365 flex-wrap flex items-center justify-center p-4 rounded-xl hover:bg-slate-300 transition-all ease-in-out duration-500"
+                        data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
                         <img src="{{ asset('assets/MobilTest.svg') }}" alt="" class="h-32">
                         <div class="flex flex-wrap gap-4 justify-center items-center bg-transparent">
                             <span class="text-xl font-bold">320i</span>
@@ -372,13 +372,15 @@
 
         <section>
             <div class="flex items-center bg-gray_white">
-                <div class="w-800">
+                <div class="w-800" data-aos="fade-right" data-aos-duration="1000">
                     <img src="{{ asset('asset/Ilustrasi L.Rent.svg') }}" alt="" class="w-full">
                 </div>
                 <div class="flex flex-col gap-7 w-500">
-                    <span class="text-4xl font-bold text-font_color_primary">Tentang <span class="text-secondary">
+                    <span class="text-4xl font-bold text-font_color_primary" data-aos="fade-left"
+                        data-aos-duration="1000">Tentang <span class="text-secondary">
                             Kami</span></span>
-                    <span class="text-font_color_primary font-semibold ">L’rent adalah Web sewa mobil di Ciamis yang
+                    <span class="text-font_color_primary font-semibold " data-aos="fade-left" data-aos-duration="1000"
+                        data-aos-delay="400">L’rent adalah Web sewa mobil di Ciamis yang
                         hadir untuk
                         memberikan
                         kemudahan dan
