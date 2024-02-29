@@ -17,8 +17,9 @@ export default {
                 text_desk: "#414042",
                 footer: "#388CCB",
                 white: "#ffffff",
-                black: "#000000"
-            },
+                black: "#000000",
+                green: "#166534",
+        },
             spacing: {
                 135: "35rem",
                 27: "6.5rem",
@@ -26,7 +27,8 @@ export default {
                 365: "365px",
                 196: "196px",
                 500: "500px",
-                800: "800px"
+                800: "800px",
+                100: "90px",
             },
             fontFamily: {
                 poppins: ["Poppins", "sans-serif"],
