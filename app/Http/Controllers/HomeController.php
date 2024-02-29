@@ -24,13 +24,13 @@ class HomeController extends Controller
         return view('layouts.belipage');
     }
     public function card(){
-        return view('cardpage');
+        return view('layouts.cardpage');
     }
     public function login(){
-        return view('login');
+        return view('layouts.login');
     }
 
     public function signup(){
-        return view('pensi');
+        return view('layouts.pensi');
     }
 }

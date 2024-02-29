@@ -35,7 +35,7 @@
                 <img src="{{ asset('assets/circle-user.svg') }}" alt="" class="w-full">
             </button>
             <div class="">
-                <a class="font-medium">Login</a>
+                <a class="font-medium" href="{{ route('login') }}" >Login</a>
             </div>
         </div>
 
@@ -43,7 +43,7 @@
             <button class="w-5">
                 <img src="{{ asset('assets/user-add.svg') }}" alt="" class="w-full">
             </button>
-            <a class="font-medium">Register</a>
+            <a class="font-medium" href=" {{ route('signup') }} " >Register</a>
         </div>
 
         <button class="text-2xl text-font_color_primary" onclick="sidebaron()">
