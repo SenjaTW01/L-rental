@@ -21,4 +21,14 @@ class HomeController extends Controller
     public function beli(){
         return view('belipage');
     }
+    public function card(){
+        return view('cardpage');
+    }
+    public function login(){
+        return view('login');
+    }
+
+    public function signup(){
+        return view('pensi');
+    }
 }

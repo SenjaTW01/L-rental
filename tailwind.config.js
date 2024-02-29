@@ -15,6 +15,7 @@ export default {
             text_desk: "#414042",
             footer: "#388CCB",
             white: "#ffffff",
+            green: "#166534",
         },
         extend: {
             spacing: {
@@ -23,8 +24,9 @@ export default {
                 // card size
                 365: "365px",
                 196: "196px",
-                500: '500px',
-                800: "800px"
+                500: "500px",
+                800: "800px",
+                100: "90px",
             },
             fontFamily: {
                 poppins: ["Poppins", "sans-serif"],

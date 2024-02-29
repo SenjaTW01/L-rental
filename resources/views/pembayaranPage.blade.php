@@ -46,7 +46,7 @@
                       <input
                         type="number"
                         value="2"
-                        class="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black"
+                        class="w-full font-semibold text-center text-gray-700 bg-gray_white outline-none focus:outline-none hover:text-black focus:text-black rounded-xl"
                       />
                     </div>
                   </div>
@@ -82,7 +82,7 @@
                       <input
                         type="number"
                         value="3"
-                        class="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black"
+                        class="w-full font-semibold text-center text-gray-700 bg-gray_white outline-none focus:outline-none hover:text-black focus:text-black rounded-xl"
                       />
                     </div>
                   </div>
@@ -122,7 +122,7 @@
                       <input
                         type="number"
                         value="5"
-                        class="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black"
+                        class="w-full font-semibold text-center text-gray-700 bg-gray_white outline-none focus:outline-none hover:text-black focus:text-black rounded-xl"
                       />
                     </div>
                   </div>
@@ -139,7 +139,7 @@
           <hr class="pb-6 mt-6" />
           <div class="my-4 mt-6 -mx-2 lg:flex">
             <div class="lg:px-2 lg:w-1/2">
-              <div class="p-4 bg-gray-100 rounded-full">
+              <div class="p-4 bg-gray_white rounded-full">
                 <h1 class="ml-2 font-bold uppercase">Coupon Code</h1>
               </div>
               <div class="p-4">
@@ -149,7 +149,7 @@
                 <div class="justify-center md:flex">
                   <form action="" method="POST">
                     <div
-                      class="flex items-center w-full h-13 pl-3 bg-white bg-gray-100 border rounded-full"
+                      class="flex items-center w-full h-13 pl-3 bg-gray_white border rounded-full"
                     >
                       <input
                         type="coupon"
@@ -157,11 +157,11 @@
                         id="coupon"
                         placeholder="Apply coupon"
                         value="90off"
-                        class="w-full bg-gray-100 outline-none appearance-none focus:outline-none active:outline-none"
+                        class="w-full outline-none appearance-none focus:outline-none active:outline-none bg-gray_white"
                       />
                       <button
                         type="submit"
-                        class="text-sm flex items-center px-3 py-1 text-white bg-gray-800 rounded-full outline-none md:px-4 hover:bg-gray-700 focus:outline-none active:outline-none"
+                        class="text-sm flex items-center px-3 py-1 text-white bg-text_desk rounded-full outline-none md:px-4 hover:bg-gray-700 focus:outline-none active:outline-none"
                       >
                         <svg
                           aria-hidden="true"
@@ -191,7 +191,7 @@
                   in the box below
                 </p>
                 <textarea
-                  class="w-full h-24 p-2 bg-gray-100 rounded"
+                  class="w-full h-24 p-2 bg-gray_white rounded"
                 ></textarea>
               </div>
             </div>
@@ -240,7 +240,7 @@
                     Coupon "90off"
                   </div>
                   <div
-                    class="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-green-700"
+                    class="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-green"
                   >
                     -133,944.77€
                   </div>
@@ -283,7 +283,7 @@
                 </div>
                 <a href="#">
                   <button
-                    class="flex justify-center w-full px-10 py-3 mt-6 font-medium text-white uppercase bg-gray-800 rounded-full shadow item-center hover:bg-gray-700 focus:shadow-outline focus:outline-none"
+                    class="flex justify-center w-full px-10 py-3 mt-6 font-medium text-white bg-text_desk uppercase  rounded-full shadow item-center hover:bg-gray-700 focus:shadow-outline focus:outline-none"
                   >
                     <svg
                       aria-hidden="true"
