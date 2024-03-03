@@ -17,10 +17,10 @@ class HomeController extends Controller
     }
     public function pembayaran()
     {
-        return view('layouts.pembayaranPage');
+        return view('layouts.pembayaran');
     }
-    public function beli()
+    public function deskripsi()
     {
-        return view('layouts.belipage');
+        return view('layouts.deskripsi');
     }
 }

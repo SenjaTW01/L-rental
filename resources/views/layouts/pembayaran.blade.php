@@ -1,4 +1,5 @@
 @extends('master')
+
 @section('content')
 
     <body class="" style="background: #edf2f7">
@@ -19,38 +20,6 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td class="hidden pb-4 md:table-cell">
-                                    <a href="#">
-                                        <img src="https://limg.app/i/Calm-Cormorant-Catholic-Pinball-Blaster-yM4oub.jpeg"
-                                            class="w-20 rounded" alt="Thumbnail" />
-                                    </a>
-                                </td>
-                                <td>
-                                    <a href="#">
-                                        <p class="mb-2 md:ml-4">Earphone</p>
-                                        <form action="" method="POST">
-                                            <button type="submit" class="text-gray-700 md:ml-4">
-                                                <small>(Remove item)</small>
-                                            </button>
-                                        </form>
-                                    </a>
-                                </td>
-                                <td class="justify-center md:justify-end md:flex mt-6">
-                                    <div class="w-20 h-10">
-                                        <div class="relative flex flex-row w-full h-8">
-                                            <input type="number" value="2"
-                                                class="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black" />
-                                        </div>
-                                    </div>
-                                </td>
-                                <td class="hidden text-right md:table-cell">
-                                    <span class="text-sm lg:text-base font-medium"> 10.00€ </span>
-                                </td>
-                                <td class="text-right">
-                                    <span class="text-sm lg:text-base font-medium"> 20.00€ </span>
-                                </td>
-                            </tr>
                             <tr>
                                 <td class="hidden pb-4 md:table-cell">
                                     <a href="#">
@@ -76,12 +45,12 @@
                                 </td>
                                 <td class="hidden text-right md:table-cell">
                                     <span class="text-sm lg:text-base font-medium">
-                                        49,600.01€
+                                        <span>Rp.</span> 100.000.000
                                     </span>
                                 </td>
                                 <td class="text-right">
                                     <span class="text-sm lg:text-base font-medium">
-                                        148,800.03€
+                                        <span>Rp.</span> 300.000.000
                                     </span>
                                 </td>
                             </tr>
@@ -93,7 +62,7 @@
                                     </a>
                                 </td>
                                 <td>
-                                    <p class="mb-2 md:ml-4">Bic 4 colour pen</p>
+                                    <p class="mb-2 md:ml-4">Barang 2</p>
                                     <form action="" method="POST">
                                         <button type="submit" class="text-gray-700 md:ml-4">
                                             <small>(Remove item)</small>
@@ -109,10 +78,14 @@
                                     </div>
                                 </td>
                                 <td class="hidden text-right md:table-cell">
-                                    <span class="text-sm lg:text-base font-medium"> 1.50€ </span>
+                                    <span class="text-sm lg:text-base font-medium">
+                                        <span>Rp.</span> 100.000.000
+                                    </span>
                                 </td>
                                 <td class="text-right">
-                                    <span class="text-sm lg:text-base font-medium"> 7.50€ </span>
+                                    <span class="text-sm lg:text-base font-medium">
+                                        <span>Rp.</span> 500.000.000
+                                    </span>
                                 </td>
                             </tr>
                         </tbody>
@@ -124,9 +97,7 @@
                                 <h1 class="ml-2 font-bold uppercase">Coupon Code</h1>
                             </div>
                             <div class="p-4">
-                                <p class="mb-4 italic">
-                                    If you have a coupon code, please enter it in the box below
-                                </p>
+                                <p class="mb-4 italic">Jika Memiliki Kupon Masukan disini</p>
                                 <div class="justify-center md:flex">
                                     <form action="" method="POST">
                                         <div class="flex items-center w-full h-13 pl-3bg-gray-100 border rounded-full">
@@ -150,10 +121,7 @@
                                 <h1 class="ml-2 font-bold uppercase">Instruction for seller</h1>
                             </div>
                             <div class="p-4">
-                                <p class="mb-4 italic">
-                                    If you have some information for the seller you can leave them
-                                    in the box below
-                                </p>
+                                <p class="mb-4 italic">Informasi tentang barang yang dibeli</p>
                                 <textarea class="w-full h-24 p-2 bg-gray-100 rounded"></textarea>
                             </div>
                         </div>
@@ -162,17 +130,13 @@
                                 <h1 class="ml-2 font-bold uppercase">Order Details</h1>
                             </div>
                             <div class="p-4">
-                                <p class="mb-6 italic">
-                                    Shipping and additionnal costs are calculated based on values
-                                    you have entered
-                                </p>
+                                <p class="mb-6 italic">Keterangan Pembayaran</p>
                                 <div class="flex justify-between border-b">
-                                    <div
-                                        class="lg:px-4 lg:py-2 m-2 text-lg lg:text-xl font-bold text-center text-gray-800">
+                                    <div class="lg:px-4 lg:py-2 m-2 text-lg lg:text-xl font-bold text-center text-gray-800">
                                         Subtotal
                                     </div>
                                     <div class="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                                        148,827.53€
+                                        <span>Rp.</span> 800.000.000
                                     </div>
                                 </div>
                                 <div class="flex justify-between pt-4 border-b">
@@ -190,7 +154,7 @@
                                         Coupon "90off"
                                     </div>
                                     <div class="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-green-700">
-                                        -133,944.77€
+                                        <span>Rp.</span> 200.000.000
                                     </div>
                                 </div>
                                 <div class="flex justify-between pt-4 border-b">
@@ -199,7 +163,7 @@
                                         New Subtotal
                                     </div>
                                     <div class="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                                        14,882.75€
+                                        <span>Rp.</span> 600.000.000
                                     </div>
                                 </div>
                                 <div class="flex justify-between pt-4 border-b">
@@ -208,7 +172,7 @@
                                         Tax
                                     </div>
                                     <div class="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                                        2,976.55€
+                                        <span>Rp.</span> 900.000.000
                                     </div>
                                 </div>
                                 <div class="flex justify-between pt-4 border-b">
@@ -217,7 +181,7 @@
                                         Total
                                     </div>
                                     <div class="lg:px-4 lg:py-2 m-2 lg:text-lg font-bold text-center text-gray-900">
-                                        17,859.3€
+                                        <span>Rp.</span> 1.400.000.000
                                     </div>
                                 </div>
                                 <a href="#">

@@ -21,4 +21,4 @@ Route::get('/', function () {
 Route::get('/HomePage', [HomeController::class, 'homePage']);
 Route::get('/selection', [HomeController::class, 'selection'])->name('selection');
 Route::get('/pembayaran', [HomeController::class, 'pembayaran'])->name('Pemabayaran');
-Route::get('/beli', [HomeController::class, 'beli'])->name('Beli');
+Route::get('/deskripsi', [HomeController::class, 'deskripsi'])->name('Deskripsi');
