@@ -10,14 +10,13 @@
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
-    <body class="bg-[#ffffff]">
+    <body class="bg-[#202444]">
     <div class="py-20">
-    <div class="flex  items-center justify-center">
-        <div class="w-60 rounded"> <img src="{{asset('asset/rui.jpg')}}" alt=""></div>
+    <div class="flex items-start justify-start ml-16">
         <div
-            class="rounded-lg border border-gray-200 bg-[#D9D9D9] shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col flex h-full items-center justify-center sm:px-4">
+            class="rounded-lg border-[#282f58] shadow-[#404985] shadow-lg bg-[#343c71] flex-col flex h-full sm:px-4">
             <div class="flex h-full flex-col justify-center gap-4 p-6">
-                <div class="left-0 right-0 inline-block border-gray-200 px-2 py-2.5 sm:px-4">
+                <div class="left-0 right-0 inline-block  px-2 py-2.5 sm:px-4">
                     <form class="flex flex-col gap-4 pb-4" data-hs-cf-bound="true">
                         <h1 class="mb-4 text-2xl font-bold text-center text-[#ffffff] justify-center font-general-sans">Login</h1>
                         <div>
@@ -35,11 +34,11 @@
                                         id="password" type="password" name="password" placeholder="Password" required="">
                                 </div> 
                             </div class="text-sm">
-                            <p class="mt-2 cursor-pointer text-sm text-[#ffffff] hover:text-blue-600 text-center">Forgot password?</p>
+                            <p class="mt-2 cursor-pointer text-sm text-[#ffffff] text-center">Forgot password?</p>
                         </div>
                         <div class="flex flex-col gap-2">
                             <button type="submit"
-                                class="border transition-colors focus:ring-2 p-0.5 disabled:cursor-not-allowed border-transparent bg-[#1F4867] hover:bg-[#183952] active:bg-[#1C415C] text-white disabled:bg-gray-300 disabled:text-gray-700 rounded-lg ">
+                                class="border transition-colors focus:ring-2 p-0.5 disabled:cursor-not-allowed border-transparent bg-[#232950] hover:bg-[#191e3a] active:bg-[#1C415C] text-white disabled:bg-gray-300 disabled:text-gray-700 rounded-lg ">
                                 <span
                                     class="flex items-center justify-center gap-1 font-medium py-1 px-2.5 text-base false">
                                     Login
@@ -47,7 +46,7 @@
                             </button>
                             <div class="min-w-[270px]">
                         <div class="text-[#ffff] mt-4 text-center text-sm">Don't have account?
-                            <a class="text-[#fe9191] hover:text-blue-600 underline-offset-1" href="{{route('signup')}}">Signup</a>
+                            <a class="text-[#3c6fe6] hover:text-[#0022ca] underline-offset-1" href="{{route('signup')}}">Signup</a>
                         </div>
                     </div>
                     <div class="flex items-center justify-center space-x-4 my-2">
@@ -56,7 +55,7 @@
 						<span class="h-px w-16 bg-gray-500"></span>
 					</div>
                     <button type="button"
-                                class="p-0.5 bg-[#4167B2] text-white border border-[#4167B2] rounded-lg ">
+                                class="p-0.5 bg-[#4167B2] text-white border border-[#3a5996] rounded-lg ">
                                 <span
                                     class="flex items-center justify-center gap-1 font-medium py-1 px-2.5 text-base false">
                                     <svg stroke="currentColor" fill="currentColor" stroke-width="0"

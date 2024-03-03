@@ -33,4 +33,7 @@ class HomeController extends Controller
     public function signup(){
         return view('layouts.pensi');
     }
+    public function Home(){
+        return view('layouts.homePage');
+    }
 }

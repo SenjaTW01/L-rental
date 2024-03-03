@@ -1,4 +1,4 @@
-<section class="pt-10 bg-secondary ">
+<section class="pt-10 bg-[#1F4867] ">
     <div class="flex justify-around text-sm text-primary pb-20">
         <div class="flex flex-col w-64 gap-3">
             <a class="font-bold text-2xl">Kantor</a>
@@ -30,11 +30,11 @@
             <div class="flex flex-col gap-4">
                 <a class="font-bold text-2xl">Halaman</a>
                 <div class="flex flex-col gap-3">
-                    <a class ="cursor-pointer">Beranda</a>
+                    <a href="{{route('Home')}}" class ="cursor-pointer">Beranda</a>
                     <a class ="cursor-pointer">Daftar Mobil</a>
                     <a class ="cursor-pointer">Daftar Harga</a>
                     <a class ="cursor-pointer">Tentang Kami</a>
-                    <a class ="cursor-pointer">Contact</a>
+                    <a href="{{route('Card')}}" class ="cursor-pointer">Contact</a>
                     <a class ="cursor-pointer">FAQ</a>
                 </div>
             </div>
