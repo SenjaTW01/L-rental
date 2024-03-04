@@ -19,23 +19,24 @@
         <button></button>
         <button></button>
         <button></button>
-        <div class="flex items-center gap-3 border px-3 py-1 rounded-lg transition-all ease-in-out duration-500 bg-white ">
+        <div
+            class="flex items-center gap-3 border px-3 py-1 rounded-lg transition-all ease-in-out duration-500 bg-white ">
             <button class="w-5">
                 <img src="{{ asset('asset/search.png') }}" alt="" class="w-full">
             </button>
             <div class="transition-all ease-in-out duration-500">
                 <input type="text" name="" id="" placeholder="Search"
-                class="placeholder:text-sm text-sm ps-4 inp-nv-nav focus:w-96 transition-all ease-in-out duration-500">
+                    class="placeholder:text-sm text-sm ps-4 inp-nv-nav focus:w-96 transition-all ease-in-out duration-500">
             </div>
         </div>
-        
+
 
         <div class="flex items-center gap-3">
             <button class="w-6">
                 <img src="{{ asset('asset/user.png') }}" alt="" class="w-full">
             </button>
             <div class="">
-                <a class="font-medium text-nav_color" href="{{ route('login') }}" >Login</a>
+                <a class="font-medium text-nav_color" href="{{ route('login') }}">Login</a>
             </div>
         </div>
 
@@ -43,7 +44,7 @@
             <button class="w-8">
                 <img src="{{ asset('asset/user-account.png') }}" alt="" class="w-full">
             </button>
-            <a class="font-medium text-nav_color" href=" {{ route('signup') }} " >Register</a>
+            <a class="font-medium text-nav_color" href=" {{ route('signup') }} ">Register</a>
         </div>
 
         <button class="text-2xl text-nav_color" onclick="sidebaron()">
@@ -63,7 +64,7 @@
                         <button class="w-6">
                             <img src="{{ asset('assets/shopping-cart.png') }}" alt="" class="w-full ">
                         </button>
-                        <a href="" class="">Whislist</a>
+                        <a href="{{ route('Pemabayaran') }}" class="">Whislist</a>
                     </div>
                     <div class="flex items-center gap-2 h-10 mb-2 hover:bg-white w-full justify-start border-b-2">
                         <button class="w-6">

@@ -18,4 +18,7 @@ Route::get('/', [HomeController::class, 'Home'])->name('Home');
 
 Route::get('/selection', [HomeController::class, 'selection'])->name('selection');
 Route::get('/pembayaran', [HomeController::class, 'pembayaran'])->name('Pemabayaran');
-Route::get('/deskripsi', [HomeController::class, 'deskripsi'])->name('Deskripsi');
+Route::get('/deskripsi', [HomeController::class, 'deskripsi'])->name('deskripsi');
+Route::get('/login', [HomeController::class, 'login'])->name('login');
+Route::get('/signup', [HomeController::class, 'signup'])->name('signup');
+Route::get('/card', [HomeController::class, 'card'])->name('card');

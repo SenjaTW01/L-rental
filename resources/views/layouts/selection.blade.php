@@ -6,7 +6,7 @@
 
                 {{-- item 1 --}}
                 <div class="text-smn text-text_desk w-365 flex-wrap flex items-center justify-center">
-                    <a href="{{ route('Beli') }}">
+                    <a href="{{ route('deskripsi') }}">
                         <img src="{{ asset('assets/MobilTest.svg') }}" alt="" class="h-32">
                     </a>
                     <div class="flex flex-wrap gap-4 justify-center items-center">
