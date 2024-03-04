@@ -14,9 +14,7 @@ use App\Http\Controllers\HomeController;
 |
 */
 
-Route::get('/', function () {
-    return view('layouts.HomePage');
-});
+Route::get('/', [HomeController::class, 'Home'])->name('Home');
 
 Route::get('/selection', [HomeController::class, 'selection'])->name('selection');
 Route::get('/pembayaran', [HomeController::class, 'pembayaran'])->name('Pemabayaran');

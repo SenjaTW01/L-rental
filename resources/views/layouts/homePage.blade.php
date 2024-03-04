@@ -17,7 +17,7 @@
     {{-- rawr --}}
 
     @section('content')
-        <section class="bg-primary flex justify-center gap-10 p-8">
+        <section class="bg-gray_white flex justify-center gap-10 p-8">
             {{-- img pindah --}}
             <div class="w-135 h-56 bg-white overflow-hidden rounded-2xl"></div>
             {{-- iklan --}}
@@ -27,7 +27,7 @@
             </div>
         </section>
 
-        <section class="bg-primary flex justify-center flex-col">
+        <section class="bg-white flex justify-center flex-col">
             <div class="flex px-40 pt-10" data-aos="fade-right" data-aos-duration="1000">
                 <span class="text-font_color_primary text-4xl  font-medium">
                     Mau Nyari tempat <span class="text-secondary">rental </span> <br>tapi bingung tempatnya dimana?

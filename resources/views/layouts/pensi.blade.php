@@ -12,15 +12,15 @@
         <script src="https://cdn.tailwindcss.com"></script>
 
     </head>
-    <body class="bg-[#26577C]">
+    <body class="bg-[#202444]">
     <div class="py-20">
     <div class="flex h-full items-center justify-center">
         <div
-            class="rounded-lg border border-gray-200 bg-[#D9D9D9] shadow-md dark:border-gray-700 dark:bg-gray-800 flex-col flex h-full items-center justify-center sm:px-4">
+            class="rounded-lg border border-[#282f58] shadow-[#404985] shadow-lg bg-[#343c71] flex-col flex h-full items-center justify-center sm:px-4">
             <div class="flex h-full flex-col justify-center gap-4 p-6"> 
                 <div class="left-0 right-0 inline-block border-gray-200 px-2 py-2.5 sm:px-4">
                     <form class="flex flex-col gap-4 pb-4" data-hs-cf-bound="true">
-                        <h1 class="mb-4 text-2xl font-bold text-center text-[#26577C] justify-center font-general-sans">Signup</h1>
+                        <h1 class="mb-4 text-2xl font-bold text-center text-[#ffffff] justify-center font-general-sans">Signup</h1>
                         <div>
                             <div class="flex w-full rounded-lg pt-1">
                                 <div class="relative w-full"><input
@@ -47,15 +47,15 @@
                         </div>                  
                         <div class="flex flex-col gap-2">
                             <button type="submit"
-                                class="border transition-colors focus:ring-2 p-0.5 disabled:cursor-not-allowed border-transparent bg-[#1F4867] hover:bg-[#183952] active:bg-[#1C415C] text-white disabled:bg-gray-300 disabled:text-gray-700 rounded-lg ">
+                                class="border transition-colors focus:ring-2 p-0.5 disabled:cursor-not-allowed border-transparent bg-[#232950] hover:bg-[#191e3a] active:bg-[#1C415C] text-white disabled:bg-gray-300 disabled:text-gray-700 rounded-lg ">
                                 <span
                                     class="flex items-center justify-center gap-1 font-medium py-1 px-2.5 text-base false">
                                     Signup
                                 </span>
                             </button>
                             <div class="min-w-[270px]">
-                        <div class="mt-4 text-center text-sm">Already have an account?
-                            <a class="text-[#26577C] hover:text-blue-600" href="/signup">Login</a>
+                        <div class="text-white mt-4 text-center text-sm">Already have an account?
+                            <a class="text-[#3c6fe6] hover:text-[#0022ca]" href="/signup">Login</a>
                         </div>
                     </div>
                     <div class="flex items-center justify-center space-x-4 my-2">
