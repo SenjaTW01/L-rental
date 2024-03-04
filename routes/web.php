@@ -20,7 +20,4 @@ Route::get('/', function () {
 
 Route::get('/selection', [HomeController::class, 'selection'])->name('selection');
 Route::get('/pembayaran', [HomeController::class, 'pembayaran'])->name('Pemabayaran');
-Route::get('/beli', [HomeController::class, 'beli'])->name('Beli');
-Route::get('/card', [HomeController::class, 'card'])->name('Card');
-Route::get('/Login', [HomeController::class, 'login'])->name('login');
-Route::get('/SignUp', [HomeController::class, 'signup'])->name('signup');
+Route::get('/deskripsi', [HomeController::class, 'deskripsi'])->name('Deskripsi');
