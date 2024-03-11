@@ -36,4 +36,7 @@ class HomeController extends Controller
     public function Home(){
         return view('layouts.homePage');
     }
+    public function motorcard(){
+        return view('layouts.motorpage');
+    }
 }

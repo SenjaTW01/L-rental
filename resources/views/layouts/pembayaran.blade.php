@@ -1,10 +1,10 @@
 @extends('master')
 
 @section('content')
-
+<head><title>Whistlist</title></head>
     <body class="" style="background: #edf2f7">
         <div class="flex justify-center my-6">
-            <div class="flex flex-col w-full p-8 text-gray-800 bg-white shadow-lg pin-r pin-y md:w-4/5 lg:w-4/5">
+            <div class="flex flex-col w-full p-8 text-gray-800 bg-white shadow-lg pin-r pin-y md:w-4/5 lg:w-4/5 rounded-lg">
                 <div class="flex-1">
                     <table class="w-full text-sm lg:text-base" cellspacing="0">
                         <thead>
@@ -39,7 +39,7 @@
                                     <div class="w-20 h-10">
                                         <div class="relative flex flex-row w-full h-8">
                                             <input type="number" value="3"
-                                                class="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black" />
+                                                class="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black rounded" />
                                         </div>
                                     </div>
                                 </td>
@@ -73,7 +73,7 @@
                                     <div class="w-20 h-10">
                                         <div class="relative flex flex-row w-full h-8">
                                             <input type="number" value="5"
-                                                class="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black" />
+                                                class="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black rounded" />
                                         </div>
                                     </div>
                                 </td>

@@ -19,11 +19,17 @@
     @section('content')
         <section class="bg-gray_white flex justify-center gap-10 p-8">
             {{-- img pindah --}}
-            <div class="w-135 h-56 bg-white overflow-hidden rounded-2xl"></div>
+            <div class="w-135 h-56 overflow-hidden rounded-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:duration-300">
+                <img src="{{asset('asset/rui.jpg')}}" alt="">
+            </div>
             {{-- iklan --}}
             <div class="flex flex-col gap-4">
-                <div class="w-96 h-27 bg-white overflow-hidden rounded-2xl"></div>
-                <div class="w-96 h-27 bg-white overflow-hidden rounded-2xl"></div>
+                <div class="w-96 h-27 overflow-hidden rounded-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:duration-300">
+                <img src="{{asset('asset/rui.jpg')}}" alt="">
+                </div>
+                <div class="w-96 h-27 overflow-hidden rounded-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:duration-300"">
+                    <img src="{{asset('asset/kamishiro.jpg')}}" alt="">
+                </div>
             </div>
         </section>
 
@@ -49,7 +55,7 @@
                     <div class="hover:bg-slate-300 transition-all ease-in-out duration-500 rounded-xl">
                         <div class="text-smn text-text_desk w-365 flex-wrap flex items-center justify-center p-4 bg-transparent"
                             data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-                            <img src="{{ asset('assets/MobilTest.svg') }}" alt="" class="h-32">
+                              <a href="{{route('deskripsi')}}"><img src="{{ asset('assets/MobilTest.svg') }}" alt="" class="h-32"></a>
                             <div class="flex flex-wrap gap-4 justify-center items-center bg-transparent">
                                 <span class="text-xl font-bold">320i</span>
                                 <div class="flex gap-1">
@@ -101,7 +107,7 @@
                     <div class="hover:bg-slate-300 transition-all ease-in-out duration-500 rounded-xl">
                         <div class="text-smn text-text_desk w-365 flex-wrap flex items-center justify-center p-4 bg-transparent"
                             data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                            <img src="{{ asset('assets/MobilTest.svg') }}" alt="" class="h-32">
+                                <a href="{{route('deskripsi')}}"><img src="{{ asset('assets/MobilTest.svg') }}" alt="" class="h-32"></a>
                             <div class="flex flex-wrap gap-4 justify-center items-center bg-transparent">
                                 <span class="text-xl font-bold">320i</span>
                                 <div class="flex gap-1">
@@ -154,7 +160,7 @@
                     <div class="hover:bg-slate-300 transition-all ease-in-out duration-500 rounded-xl">
                         <div class="text-smn text-text_desk w-365 flex-wrap flex items-center justify-center p-4 bg-transparent"
                             data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
-                            <img src="{{ asset('assets/MobilTest.svg') }}" alt="" class="h-32">
+                                <a href="{{route('deskripsi')}}"><img src="{{ asset('assets/MobilTest.svg') }}" alt="" class="h-32"></a>
                             <div class="flex flex-wrap gap-4 justify-center items-center bg-transparent">
                                 <span class="text-xl font-bold">320i</span>
                                 <div class="flex gap-1">
@@ -207,7 +213,7 @@
                     <div class="hover:bg-slate-300 transition-all ease-in-out duration-500 rounded-xl">
                         <div class="text-smn text-text_desk w-365 flex-wrap flex items-center justify-center p-4 bg-transparent"
                             data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
-                            <img src="{{ asset('assets/MobilTest.svg') }}" alt="" class="h-32">
+                            <a href="{{route('deskripsi')}}"><img src="{{ asset('assets/MobilTest.svg') }}" alt="" class="h-32"></a>
                             <div class="flex flex-wrap gap-4 justify-center items-center bg-transparent">
                                 <span class="text-xl font-bold">320i</span>
                                 <div class="flex gap-1">

@@ -1,16 +1,16 @@
 <nav class=" bg-[#26577C] text-font_color_primary flex justify-between px-10 pt-4 pb-5">
     <link rel="stylesheet" href="{{ asset('css/pluss.css') }}">
-    <link rel='stylesheet'
-        href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <link rel="stylesheet" href="{{asset('css/Profile.css')}}">
+    <link rel="stylesheet" href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-straight/css/uicons-regular-straight.css'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <div class="">
         <div class="flex gap-6">
             <div class="flex items-center gap-3">
                 <div class="img-con w-10">
-                    <img src="{{ asset('asset/Logo.png') }}" alt="" class="w-full">
+                    <a href="{{route('Home')}}"><img src="{{ asset('asset/Logo.png') }}" alt="" class="w-full"></a>
                 </div>
                 <div class="">
-                    <a class="text-2xl font-medium text-nav_color">L- Rent</a>
+                    <a href="{{route('Home')}}" class="text-2xl font-medium text-nav_color">L- Rent</a>
                 </div>
             </div>
         </div>
@@ -29,24 +29,29 @@
                     class="placeholder:text-sm text-sm ps-4 inp-nv-nav focus:w-96 transition-all ease-in-out duration-500">
             </div>
         </div>
-
-
-        <div class="flex items-center gap-3">
-            <button class="w-6">
-                <img src="{{ asset('asset/user.png') }}" alt="" class="w-full">
+        <button>
+                <img src="{{ asset('asset/user.png') }}" alt="" class="button sub-menu" onclick="down()">
             </button>
-            <div class="">
-                <a class="font-medium text-nav_color" href="{{ route('login') }}">Login</a>
-            </div>
+        <div class="sub-menu-warp" id="subMenu" >
+            <div class="sub-menu">
+                
+        <div class="flex items-center m-2">
+        <button class="w-6">
+                <img src="{{ asset('asset/user.png') }}" alt="" class="w-full ml-1">
+            </button>
+                <a class="font-medium text-nav_color ml-2" href="{{ route('login') }}">Login</a>
         </div>
-
-        <div class="flex items-center gap-2">
+       
+      <hr class="mt-1">
+        <div class="flex items-center m-1 ml-2">
             <button class="w-8">
                 <img src="{{ asset('asset/user-account.png') }}" alt="" class="w-full">
             </button>
-            <a class="font-medium text-nav_color" href=" {{ route('signup') }} ">Register</a>
+            <a class="font-medium text-nav_color m-0" href=" {{ route('signup') }} ">Register</a>
         </div>
-
+ 
+        </div>
+</div>
         <button class="text-2xl text-nav_color" onclick="sidebaron()">
             <i class="bi bi-list"></i>
         </button>
@@ -104,4 +109,9 @@
             side.classList.add('hidden');
         }, 300);
     }
+   let subMenu = document.getElementById("subMenu");
+
+   function down() {
+    subMenu.classList.toggle("open-menu");
+   }
 </script>

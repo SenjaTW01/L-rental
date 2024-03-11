@@ -1,0 +1,45 @@
+.sub-menu-warp {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    width: 320px;
+    background-color: #26557c;
+    border-radius: 10px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.25ms;
+}
+.button {
+    width: 2.5rem;
+    margin-left: 0.25rem;
+}
+.sub-menu-warp.open-menu {
+    max-height: 400px;
+}
+.profile-animation {
+    animation: fade-in-down 500ms;
+}
+.out.profile.animation {
+    animation: fade-out-up 500ms;
+}
+
+@keyframes fade-in-down {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+    to {
+        opacity: 0;
+        transform: translate3d(0, 0, 0);
+    }
+}
+@keyframes fade-out-up {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+    to {
+        opacity: 0;
+        transform: translate3d(0, 0, 0);
+    }
+}
